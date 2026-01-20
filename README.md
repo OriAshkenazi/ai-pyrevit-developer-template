@@ -14,3 +14,8 @@ Minimal pyRevit extension template with CodexWorkspace docs. This repo ships wit
 ## Notes
 - Use `CodexWorkspace/docs/reference/` for Revit 2023 guidance.
 - Keep `.tab` content project-specific and out of the template.
+
+## Contributing
+- Create a plan in `CodexWorkspace/docs/plans/` before starting work.
+- Keep `.tab` folders out of the template and project code in your extension repo.
+- Follow the repo conventions in `CodexWorkspace/docs/` and `AGENTS.md`.
