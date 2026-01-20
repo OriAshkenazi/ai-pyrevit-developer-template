@@ -1,0 +1,4 @@
+Review and optimize
+-------------------
+Review this function for Revit 2023: identify obsolete API calls, consolidate transactions if safe, move repeated lookups out of loops, and ensure .NET collection usage matches method signatures. Explain each change briefly.
+

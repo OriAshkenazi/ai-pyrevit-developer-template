@@ -1,0 +1,4 @@
+Generate code using Revit 2023 API
+---------------------------------
+Write a pyRevit (CPython 3.9) script that collects all Rooms, sums their Area per Level, and writes the total into a project parameter `Level Total Area`. Use explicit transactions, proper .NET collections, and handle missing parameters gracefully. Return a dict[LevelId, double] as a result.
+
