@@ -1,4 +1,4 @@
-﻿# ai-pyrevit-developer-template
+﻿# AI pyRevit Developer Template
 
 Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. This repo is built for civil engineers who want clear, step-by-step instructions and minimal coding. `.tab` folders are intentionally excluded so you can add project-specific commands later.
 
