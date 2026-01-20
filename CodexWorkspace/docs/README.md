@@ -1,4 +1,4 @@
-# CodexWorkspace Docs
+﻿# CodexWorkspace Docs
 
 This folder is the fast navigation layer for guidance used by Codex when working on this repo.
 
@@ -18,7 +18,6 @@ This folder is the fast navigation layer for guidance used by Codex when working
 - Git hygiene: `checklists/git_hygiene_checklist.md`
 - Testing strategy: `checklists/testing_strategy.md`
 
-## Plans (Work Notes)
-- Align+Move button: `plans/align_move_button_plan.md`
-- Finish lines multi-room flag: `plans/finish_lines_multi_room_flag_plan.md`
-- Finish lines to rooms: `plans/finish_lines_to_rooms_plan.md`
+## Plans (Template)
+- Placeholder: `plans/README.md`
+- Starter template: `plans/plan_template.md`
