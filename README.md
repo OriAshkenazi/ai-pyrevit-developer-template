@@ -1,6 +1,6 @@
 ﻿# ai-pyrevit-developer-template
 
-Minimal pyRevit extension template with CodexWorkspace docs. This repo ships without any `.tab` folders so the template stays clean.
+ Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. `.tab` folders are intentionally excluded so you can add project-specific commands later.
 
 ## Quickstart
 1. Clone this repo.
