@@ -1,11 +1,16 @@
 ﻿# CodexWorkspace Docs
 
-This folder is the fast navigation layer for guidance used by Codex when working on this repo.
+This folder is the navigation layer for guidance used by Codex when working on this repo.
+
+## Start Here (New to pyRevit)
+- Beginner guide: `guides/README.md`
+- Plan template: `plans/plan_template.md`
 
 ## Reference
 - Revit 2023 guidelines: `reference/revit_2023_development_guidelines_with_llm_integration.md`
 
 ## Guides
+- Beginner walkthrough: `guides/README.md`
 - Dev workflow: `guides/dev_workflow.md`
 - Environment setup: `guides/environment_setup.md`
 - LLM prompting guidelines: `guides/llm_prompting_guidelines.md`

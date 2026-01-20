@@ -1,15 +1,18 @@
-﻿# AI pyRevit Developer Template
- 
- Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. `.tab` folders are intentionally excluded so you can add project-specific commands later.
+﻿# ai-pyrevit-developer-template
 
-## Quickstart
+Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. This repo is built for civil engineers who want clear, step-by-step instructions and minimal coding. `.tab` folders are intentionally excluded so you can add project-specific commands later.
+
+## Start Here (Beginner)
 1. Clone this repo.
 2. Add the repo folder as a pyRevit extension (pyRevit Settings > Extensions > Add).
-3. Create a plan file in `CodexWorkspace/docs/plans/` (start from `plan_template.md`).
-4. Ask Codex to expand the plan into a full development plan and tasks.
-5. Scaffold a command: create `<Tab>.tab/<Panel>.panel/<Button>.pushbutton/` and copy `CodexWorkspace/scripts/new_command_template.py` to `script.py`.
-6. Choose a logo by adding `icon.png` to the pushbutton folder.
-7. Test the command in Revit.
+3. Restart Revit so the extension loads.
+4. Create a plan in `CodexWorkspace/docs/plans/` (start from `plan_template.md`).
+5. Ask Codex to turn that plan into a full development plan and tasks.
+6. When ready, create a command folder and copy `CodexWorkspace/scripts/new_command_template.py` to `script.py`.
+7. Choose a logo by adding `icon.png` to the pushbutton folder.
+8. Test the command in Revit.
+
+For a slower, visual walkthrough and definitions, start with `CodexWorkspace/docs/guides/README.md`.
 
 ## Notes
 - Use `CodexWorkspace/docs/reference/` for Revit 2023 guidance.

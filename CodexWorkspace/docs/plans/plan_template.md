@@ -1,22 +1,31 @@
-﻿# Plan Template
+﻿# Plan Template (Plain Language)
 
-## Goal
-- What you want to build or change.
+## Goal (One Sentence)
+- Describe the outcome you want.
 
-## Scope
-- In scope:
-- Out of scope:
+## Who Is This For
+- Example: "Project managers reviewing takeoff data."
 
-## Assumptions
-- Dependencies, versions, or data expectations.
+## Inputs (What You Select)
+- Example: "Rooms from the current view."
 
-## Steps
+## Outputs (What You Expect)
+- Example: "A schedule or updated parameters."
+
+## Steps (Simple Actions)
 1.
 2.
 3.
 
-## Risks
-- Potential pitfalls or API constraints.
+## Questions Or Unknowns
+- Anything you are not sure about.
 
-## Tests
-- Manual checks or scripts to run.
+## Risks Or Limitations
+- Example: "May not work in linked models."
+
+## Tests (How You Will Check It)
+- Example: "Run in a sample model and verify the output."
+
+## Prompt For Codex
+- "Turn this plan into a step-by-step development plan and tasks."
+- "Explain any Revit limitations in plain language."
