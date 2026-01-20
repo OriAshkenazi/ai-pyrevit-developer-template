@@ -1,5 +1,5 @@
-﻿# ai-pyrevit-developer-template
-
+﻿# AI pyRevit Developer Template
+ 
  Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. `.tab` folders are intentionally excluded so you can add project-specific commands later.
 
 ## Quickstart
