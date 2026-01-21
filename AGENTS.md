@@ -8,12 +8,15 @@ This repo includes a curated knowledge base under `CodexWorkspace/` that Codex s
 - Checklists: `CodexWorkspace/docs/checklists/`
 - Prompt snippets: `CodexWorkspace/prompts/`
 - Script templates/harnesses: `CodexWorkspace/scripts/`
+- Planning templates: `CodexWorkspace/docs/templates/`
+- Planning workspace (project-specific): `CodexWorkspace/docs/workspace/`
 
 ## How To Use `CodexWorkspace`
 1. **Before coding**: open the relevant doc(s) from `CodexWorkspace/docs/` (especially the Revit 2023 guideline reference and the checklists).
-2. **When creating a new pyRevit command**: start from `CodexWorkspace/scripts/new_command_template.py` and adapt it to the target tool folder.
-3. **When reviewing or debugging**: use the checklists in `CodexWorkspace/docs/checklists/` and the prompt snippets in `CodexWorkspace/prompts/` to standardize analysis and outcomes.
-4. **When unsure about patterns**: prefer the Revit 2023 guidance under `CodexWorkspace/docs/reference/` over ad-hoc API usage.
+2. **When planning**: copy templates from `CodexWorkspace/docs/templates/` into `CodexWorkspace/docs/workspace/` and edit only the workspace copies.
+3. **When creating a new pyRevit command**: start from `CodexWorkspace/scripts/new_command_template.py` and adapt it to the target tool folder.
+4. **When reviewing or debugging**: use the checklists in `CodexWorkspace/docs/checklists/` and the prompt snippets in `CodexWorkspace/prompts/` to standardize analysis and outcomes.
+5. **When unsure about patterns**: prefer the Revit 2023 guidance under `CodexWorkspace/docs/reference/` over ad-hoc API usage.
 
 ## Repo Layout Notes (pyRevit Extensions)
 - Commands typically live under: `<Tab>.tab/<Panel>.panel/<Button>.pushbutton/script.py`

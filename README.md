@@ -6,8 +6,8 @@ Template scaffold for pyRevit development with CodexWorkspace docs and workflow 
 1. Clone this repo.
 2. Add the repo folder as a pyRevit extension (pyRevit Settings > Extensions > Add).
 3. Restart Revit so the extension loads.
-4. Create a plan in `CodexWorkspace/docs/plans/` (start from `plan_template.md`).
-5. Follow `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md` to create `development.md` and tasks.
+4. Create a plan in `CodexWorkspace/docs/workspace/plans/` (copy from `CodexWorkspace/docs/templates/plan_template.md`).
+5. Follow `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md` to create `CodexWorkspace/docs/workspace/development.md` and tasks.
 6. When ready, create a command folder and copy `CodexWorkspace/scripts/new_command_template.py` to `script.py`.
 7. Choose a logo by adding `icon.png` to the pushbutton folder.
 8. Test the command in Revit.
@@ -19,7 +19,9 @@ For a slower, visual walkthrough and definitions, start with `CodexWorkspace/doc
 - Keep `.tab` content project-specific and out of the template.
 
 ## Contributing
-- Contribute only to the template itself (prompts, best-practices, Revit version guidance).
+- Contribute only to the static template files (prompts, guides, checklists, reference, templates, and scripts).
+- Keep project-specific planning artifacts in `CodexWorkspace/docs/workspace/` out of template contributions.
 - Do not propose or include plans for a specific add-on.
 - Keep `.tab` folders out of the template and project code in your extension repo.
+- When updating static docs, also update `CodexWorkspace/docs/README.md` and any relevant indexes.
 - Follow the repo conventions in `CodexWorkspace/docs/` and `AGENTS.md`.

@@ -1,3 +1,3 @@
 Generate code using Revit 2023 API (use with gpt-5.2-codex)
 -----------------------------------------------------------
-Write a pyRevit (CPython 3.9) script that collects all Rooms, sums their Area per Level, and writes the total into a project parameter `Level Total Area`. Use explicit transactions, proper .NET collections, and handle missing parameters gracefully. Return a dict[LevelId, double] as a result. If development.md exists, follow its architecture and naming.
+Write a pyRevit (CPython 3.9) script that collects all Rooms, sums their Area per Level, and writes the total into a project parameter `Level Total Area`. Use explicit transactions, proper .NET collections, and handle missing parameters gracefully. Return a dict[LevelId, double] as a result. If `CodexWorkspace/docs/workspace/development.md` exists, follow its architecture and naming.

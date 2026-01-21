@@ -4,7 +4,7 @@
 - [ ] Clone the repo and open the README.
 - [ ] Add the repo folder in pyRevit Settings > Extensions > Add.
 - [ ] Restart Revit and confirm the extension loads.
-- [ ] Create a plan using `CodexWorkspace/docs/plans/plan_template.md`.
+- [ ] Create a plan using `CodexWorkspace/docs/templates/plan_template.md` and store it in `CodexWorkspace/docs/workspace/plans/`.
 - [ ] Create a sample button using the template script and confirm it runs.
 
 - [ ] **Unit-like checks**: exercise pure-Python utilities or data transforms that do not touch the Revit API.

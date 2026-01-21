@@ -5,7 +5,7 @@ This workspace is a curated knowledge base so Codex sessions can start quickly o
 ## Start Here (Beginner)
 - Read `docs/guides/README.md` for a step-by-step walkthrough.
 - Read `docs/guides/ai_orchestrated_dev_methodology.md` for the dual-model workflow.
-- Create a plan using `docs/plans/plan_template.md`, then use the planning prompt to produce `development.md`.
+- Create a plan using `docs/templates/plan_template.md`, then use the planning prompt to produce `docs/workspace/development.md`.
 
 ## Quick Start
 - Prefer the script engine already used by the command you are editing; avoid changing `#! python` / `#! python3` unless required.
@@ -16,6 +16,8 @@ This workspace is a curated knowledge base so Codex sessions can start quickly o
 ## Directory Tour
 - `docs` &mdash; documentation index (start at `docs/README.md`).
 - `docs/checklists` &mdash; ready-to-use review and testing checklists.
+- `docs/templates` &mdash; static templates for planning artifacts.
+- `docs/workspace` &mdash; project-specific plans, tasks, reviews, and backlog.
 - `prompts` &mdash; curated prompt snippets for generating, reviewing, and documenting code with Codex or GPT.
 - `scripts` &mdash; pyRevit-ready templates that follow the guidelines.
 

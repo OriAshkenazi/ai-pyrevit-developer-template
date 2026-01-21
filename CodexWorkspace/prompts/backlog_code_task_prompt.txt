@@ -5,11 +5,11 @@ Backlog Code-Task (use with gpt-5.2)
 These tasks are not urgent for the current development cycle. Create a single Code-Task to document them in the appropriate repository location, following repo standards.
 
 Documentation Requirements:
-* Create or update CodexWorkspace/docs/backlog.md with a categorized task list
+* Create or update CodexWorkspace/docs/workspace/backlog.md with a categorized task list
 * Link backlog from README.md in an appropriate section
 * Organize tasks by priority and estimated complexity
 * Include context references for future implementation
-* Maintain consistency with development.md
+* Maintain consistency with CodexWorkspace/docs/workspace/development.md
 
 Output Requirements:
 * Provide one Code-Task using the standard Code-Task format

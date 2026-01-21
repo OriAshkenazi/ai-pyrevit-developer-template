@@ -6,8 +6,8 @@ This folder is the beginner-friendly entry point for civil engineers who are new
 1. Install pyRevit (see `environment_setup.md`).
 2. Add this repo as an extension (pyRevit Settings > Extensions > Add).
 3. Restart Revit so the extension loads.
-4. Create a plan in `../plans/` using `../plans/plan_template.md`.
-5. Follow `ai_orchestrated_dev_methodology.md` to create `development.md` and tasks.
+4. Copy `../templates/plan_template.md` to `../workspace/plans/<feature>_plan.md` and fill it in.
+5. Follow `ai_orchestrated_dev_methodology.md` to create `../workspace/development.md` and tasks.
 6. Create a command folder: `<Tab>.tab/<Panel>.panel/<Button>.pushbutton/`.
 7. Copy `../../scripts/new_command_template.py` to `script.py`.
 8. Add `icon.png` to the pushbutton folder and test in Revit.

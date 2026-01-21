@@ -23,6 +23,7 @@ For the AI-orchestrated workflow and prompt usage, see `CodexWorkspace/docs/guid
 - If you change a tool's behavior, update the relevant `CodexWorkspace/docs/` pages and any tool-specific docs near the code.
 - Keep `CodexWorkspace/docs/README.md` (and checklist indexes) up to date when adding/moving docs.
 - When moving/renaming docs, prefer `git mv` + updating references over file-based "Moved to ..." stubs.
+- Keep project-specific planning artifacts in `CodexWorkspace/docs/workspace/` and static guidance in `CodexWorkspace/docs/guides/`, `reference/`, `checklists/`, and `templates/`.
 
 ## Naming Conventions
 - **Python modules**: `snake_case.py` for reusable libraries/utilities.
