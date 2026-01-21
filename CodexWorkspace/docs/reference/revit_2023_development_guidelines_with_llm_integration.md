@@ -264,3 +264,6 @@ Note: When the script engine matters, explicitly request `#! python` (IronPython
 
 **“Document this command”**  
 > “Generate a Revit‑style docstring for this function, listing params (types), return type, exceptions thrown, and a minimal usage example showing transaction scope.”
+
+Return back: [`CodexWorkspace/docs/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

@@ -209,3 +209,6 @@ This code collects the selected elements that are in the Walls category, starts 
 By adhering to these best practices – careful selection handling, proper API usage for parameters, and mindful transaction management – you can successfully select elements and edit their parameters in Revit 2023 using pyRevit. This enables powerful automation of model data, all through Python scripting integrated directly in Revit. The combination of IronPython (for direct .NET integration) and CPython (for advanced libraries, if needed) under pyRevit provides flexibility, but as demonstrated, the core Revit API usage remains the same. With careful coding and knowledge of Revit’s quirks, developers can avoid common pitfalls and create reliable tools for Revit parameter management.
 
 **Sources:** Recent discussions and official documentation were referenced to ensure accuracy, including pyRevit developer forums and Revit API guides for parameter handling and selection techniques, among others.
+
+Return back: [`CodexWorkspace/docs/guides/pyrevit/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/pyrevit/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

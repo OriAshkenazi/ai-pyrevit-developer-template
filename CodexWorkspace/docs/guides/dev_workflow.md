@@ -1,6 +1,6 @@
 # Dev Workflow (This Repo)
 
-For the AI-orchestrated workflow and prompt usage, see `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md`.
+For the AI-orchestrated workflow and prompt usage, see [`CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md).
 
 ## Git Strategy
 - **Branch naming**: `<prefix>/<short-topic>`
@@ -20,17 +20,20 @@ For the AI-orchestrated workflow and prompt usage, see `CodexWorkspace/docs/guid
 - Avoid destructive commands (`git reset --hard`, `git checkout --`) unless explicitly requested.
 
 ## Documentation Hygiene
-- If you change a tool's behavior, update the relevant `CodexWorkspace/docs/` pages and any tool-specific docs near the code.
-- Keep `CodexWorkspace/docs/README.md` (and checklist indexes) up to date when adding/moving docs.
+- If you change a tool's behavior, update the relevant [`CodexWorkspace/docs/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs) pages and any tool-specific docs near the code.
+- Keep [`CodexWorkspace/docs/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/README.md) (and checklist indexes) up to date when adding/moving docs.
 - When moving/renaming docs, prefer `git mv` + updating references over file-based "Moved to ..." stubs.
-- Keep project-specific planning artifacts in `CodexWorkspace/docs/workspace/` and static guidance in `CodexWorkspace/docs/guides/`, `reference/`, `checklists/`, and `templates/`.
+- Keep project-specific planning artifacts in [`CodexWorkspace/docs/workspace/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/workspace) and static guidance in [`CodexWorkspace/docs/guides/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/guides), [`CodexWorkspace/docs/reference/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/reference), [`CodexWorkspace/docs/checklists/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/checklists), and [`CodexWorkspace/docs/templates/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/templates).
 
 ## Naming Conventions
 - **Python modules**: `snake_case.py` for reusable libraries/utilities.
 - **Standalone helper scripts**: prefer lower-kebab names where practical.
 - **pyRevit command entrypoints**: keep the conventional `script.py` inside `*.pushbutton/` bundles.
-- **Docs**: prefer lower `snake_case.md` filenames (exceptions: `README.md`, `AGENTS.md`).
+- **Docs**: prefer lower `snake_case.md` filenames (exceptions: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md), [`AGENTS.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/AGENTS.md)).
 
 ## Validation
 - If tests exist, run them (start with the smallest relevant subset, then broader runs).
 - For script-only changes without tests, at least run a quick syntax check on edited Python files (e.g., `python -m py_compile ...`).
+
+Return back: [`CodexWorkspace/docs/guides/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

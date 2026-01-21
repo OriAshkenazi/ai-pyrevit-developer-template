@@ -230,3 +230,6 @@ Finally, maintain rigorous documentation within your code. Clearly comment on wh
 * Example of adding Revit API references and using .NET classes in CPython https://discourse.pyrevitlabs.io/t/pyrevit-cpython-python-3-equivalent-of-the-ironpython-python-2-import-clr/533#:~:text=
 * PyRevit script structuring tips (use of lib folder, imports) https://learnrevitapi.com/newsletter/pyrevit-script-anatomy#:~:text=reusable https://learnrevitapi.com/newsletter/pyrevit-script-anatomy#:~:text=We%20pretty%20much%20always%20need,them%20straight%20in%20your%20code
 * PyRevit script logging and output utilities for IronPython https://pyrevitlabs.notion.site/Python-Script-Facilities-dcaf1e4660134974ba69e023b3714ddc?pvs=21#:~:text=from%20pyrevit%20import%20script
+
+Return back: [`CodexWorkspace/docs/guides/pyrevit/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/pyrevit/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

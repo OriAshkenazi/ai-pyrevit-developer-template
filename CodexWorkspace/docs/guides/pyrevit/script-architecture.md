@@ -208,3 +208,6 @@ In conclusion, **enterprise deployment of PyRevit tools** benefits from automati
 6. PyRevit Forums – Guidance on `get_config()` / `set_config()` for storing user settings in pyRevit config and using extensible storage for project data.
 7. PyRevit GitHub Issue – CPython integration: limitations and subprocess workaround.
 8. PyRevit Documentation – *Understanding pyRevit Architecture* – Overview of pyRevit components and telemetry capabilities.
+
+Return back: [`CodexWorkspace/docs/guides/pyrevit/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/pyrevit/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

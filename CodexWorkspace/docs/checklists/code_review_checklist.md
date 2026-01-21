@@ -8,3 +8,5 @@
 - [ ] **UI/UX**: confirm no document edits outside transactions; add dialogs/progress feedback when work is lengthy.
 - [ ] **Docs**: docstrings cover parameters, return types, exceptions, and usage within a transaction.
 
+Return back: [`CodexWorkspace/docs/checklists/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/checklists/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

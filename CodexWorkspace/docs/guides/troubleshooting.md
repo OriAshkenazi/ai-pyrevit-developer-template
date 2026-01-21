@@ -6,7 +6,7 @@
 - Make sure you did not rename or delete the extension folder.
 
 ## pyRevit Not Installed Or Not Loading
-- Follow the steps in `environment_setup.md`.
+- Follow the steps in [`environment_setup.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/environment_setup.md).
 - Make sure you launched Revit after installing pyRevit.
 
 ## Tab or Button Not Visible
@@ -29,3 +29,6 @@
 ## When Asking For Help (gpt-5.2 or gpt-5.2-codex)
 - Include the error message and the file path of `script.py`.
 - Describe what you clicked, what you expected, and what happened.
+
+Return back: [`CodexWorkspace/docs/guides/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

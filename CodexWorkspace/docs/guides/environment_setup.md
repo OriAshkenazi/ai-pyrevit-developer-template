@@ -9,3 +9,6 @@
 - Keep a consistent CPython interpreter/version across the team when using CPython scripts to avoid behavioral drift.
 - Treat ElementIds as opaque tokens (Revit 2023 moves toward 64-bit ids).
 - Favor modern creation APIs (e.g., `Floor.Create`, `ViewSheet.Duplicate`) over removed `Document.New*` calls.
+
+Return back: [`CodexWorkspace/docs/guides/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)
