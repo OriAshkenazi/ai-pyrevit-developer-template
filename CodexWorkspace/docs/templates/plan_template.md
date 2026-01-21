@@ -1,5 +1,7 @@
 # Plan Template (Plain Language)
 
+Copy this file to `CodexWorkspace/docs/workspace/plans/<feature>_plan.md` and fill it in.
+
 ## Goal (One Sentence)
 - Describe the outcome you want.
 
@@ -28,4 +30,4 @@
 
 ## Prompt For gpt-5.2 (Planning)
 Use `CodexWorkspace/prompts/planning_phase_prompt.txt` and provide this plan as input.
-Save the output as `development.md` at the repo root.
+Save the output as `CodexWorkspace/docs/workspace/development.md`.

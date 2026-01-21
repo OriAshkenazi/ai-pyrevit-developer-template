@@ -1,9 +1,9 @@
 Seed Code-Tasks (use with gpt-5.2)
 ---------------------------------
-Based on development.md, generate as many discrete Code-Tasks as needed for the first feature in line for implementation.
+Based on CodexWorkspace/docs/workspace/development.md, generate as many discrete Code-Tasks as needed for the first feature in line for implementation.
 
 Task Requirements:
-* Reference development.md for architectural context
+* Reference CodexWorkspace/docs/workspace/development.md for architectural context
 * Include documentation updates as integral requirements
 * Scope limit: 3 hours per task
 * Target: ~100 LoC per task
@@ -19,7 +19,7 @@ Task [N]: [Action Verb] [Component/Feature] ([Development Route])
 Parallel Development Note: [Why this task can run concurrently]
 
 Context
-[Brief background from development.md and current repo state]
+[Brief background from CodexWorkspace/docs/workspace/development.md and current repo state]
 
 Objective
 [Single, clear sentence describing the main goal]
@@ -63,4 +63,4 @@ Constraints
 * Follow existing code patterns in [reference files]
 
 Repository: {REPO_URL}
-Development Guide: {development.md}
+Development Guide: CodexWorkspace/docs/workspace/development.md

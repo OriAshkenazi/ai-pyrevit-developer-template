@@ -7,7 +7,7 @@ Based on this technical analysis, generate remediation Code-Tasks to complete {F
 Task Generation Criteria:
 * Address specific gaps identified in analysis
 * Maintain 3-hour scope limitation per task
-* Reference development.md for context consistency
+* Reference CodexWorkspace/docs/workspace/development.md for context consistency
 * Include documentation synchronization as part of each task
 * Specify validation requirements
 * Use Revit 2023 patterns (explicit transactions, .NET collections at API boundaries)
@@ -19,7 +19,7 @@ Task [N]: [Action Verb] [Component/Feature] ([Development Route])
 Parallel Development Note: [Why this task can run concurrently]
 
 Context
-[Brief background from development.md and current repo state]
+[Brief background from CodexWorkspace/docs/workspace/development.md and current repo state]
 
 Objective
 [Single, clear sentence describing the main goal]

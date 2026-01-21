@@ -1,6 +1,7 @@
 # LLM Prompting Guidelines
 
 For the full workflow, use `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md`.
+Store planning artifacts in `CodexWorkspace/docs/workspace/` and keep static templates in `CodexWorkspace/docs/templates/`.
 
 ## Model Selection
 - gpt-5.2: planning, task generation, reviews, backlog, and next-feature analysis.

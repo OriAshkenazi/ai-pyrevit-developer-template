@@ -23,7 +23,7 @@ Output Requirements:
 * Include specific task examples that gpt-5.2-codex can implement
 * Maximum 1500 words total
 * Use explicit Revit 2023 patterns (explicit transactions, .NET collections at API boundaries)
-* The output must be saved as development.md at repo root
+* The output must be saved as CodexWorkspace/docs/workspace/development.md
 
 Critical Success Factors:
 * All architectural decisions must be gpt-5.2-codex implementable

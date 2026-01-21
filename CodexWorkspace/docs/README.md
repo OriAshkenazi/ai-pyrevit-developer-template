@@ -1,10 +1,12 @@
-﻿# CodexWorkspace Docs
+# CodexWorkspace Docs
 
 This folder is the navigation layer for guidance used by Codex when working on this repo.
 
 ## Start Here (New to pyRevit)
 - Beginner guide: `guides/README.md`
-- Plan template: `plans/plan_template.md`
+- AI workflow: `guides/ai_orchestrated_dev_methodology.md`
+- Plan template: `templates/plan_template.md`
+- Planning workspace: `workspace/README.md`
 
 ## Reference
 - Revit 2023 guidelines: `reference/revit_2023_development_guidelines_with_llm_integration.md`
@@ -19,11 +21,21 @@ This folder is the navigation layer for guidance used by Codex when working on t
 - Troubleshooting: `guides/troubleshooting.md`
 - PyRevit (engine selection, architecture, selection/parameters): `guides/pyrevit/`
 
+## Templates (Static)
+- Index: `templates/README.md`
+- Plan template: `templates/plan_template.md`
+- Development template: `templates/development_template.md`
+- Backlog template: `templates/backlog_template.md`
+
+## Workspace (Project-Specific)
+- Overview: `workspace/README.md`
+- Development plan: `workspace/development.md`
+- Backlog: `workspace/backlog.md`
+- Plans: `workspace/plans/`
+- Tasks: `workspace/tasks/`
+- Reviews: `workspace/reviews/`
+
 ## Checklists
 - Code review: `checklists/code_review_checklist.md`
 - Git hygiene: `checklists/git_hygiene_checklist.md`
 - Testing strategy: `checklists/testing_strategy.md`
-
-## Plans (Template)
-- Placeholder: `plans/README.md`
-- Starter template: `plans/plan_template.md`
