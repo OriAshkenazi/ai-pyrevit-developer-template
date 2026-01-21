@@ -5,6 +5,7 @@ This workspace is a curated knowledge base so Codex sessions can start quickly o
 ## Start Here (Beginner)
 - Read [`docs/guides/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md) for a step-by-step walkthrough.
 - Read [`docs/guides/ai_orchestrated_dev_methodology.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md) for the dual-model workflow.
+- Verify the Hello World scaffold in [`HelloWorld.tab/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab) to confirm pyRevit setup.
 - Create a plan using [`docs/templates/plan_template.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/templates/plan_template.md), then use the planning prompt to produce [`docs/workspace/development.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/workspace/development.md).
 
 ## Quick Start

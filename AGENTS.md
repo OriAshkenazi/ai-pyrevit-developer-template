@@ -19,7 +19,7 @@ This repo includes a curated knowledge base under [`CodexWorkspace/`](https://gi
 5. **When unsure about patterns**: prefer the Revit 2023 guidance under [`CodexWorkspace/docs/reference/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/reference) over ad-hoc API usage.
 
 ## Repo Layout Notes (pyRevit Extensions)
-- Commands typically live under: `<Tab>.tab/<Panel>.panel/<Button>.pushbutton/script.py`
+- Commands typically live under a pushbutton folder (example: [`HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/script.py`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/script.py)).
 - Keep transactions explicit (`Start/Commit`, `RollBack` on exceptions).
 - Convert Python iterables to .NET collections at Revit API boundaries when required (e.g., `List[ElementId]`).
 

@@ -10,7 +10,7 @@
 - Make sure you launched Revit after installing pyRevit.
 
 ## Tab or Button Not Visible
-- Check folder naming: `<Tab>.tab/<Panel>.panel/<Button>.pushbutton/`.
+- Check folder naming using the Hello World scaffold: [`HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton).
 - Ensure a `script.py` file exists directly inside the pushbutton folder.
 - Avoid extra nesting (the pushbutton folder should be the last level).
 

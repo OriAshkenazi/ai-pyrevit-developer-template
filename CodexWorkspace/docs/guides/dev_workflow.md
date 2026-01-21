@@ -28,7 +28,7 @@ For the AI-orchestrated workflow and prompt usage, see [`CodexWorkspace/docs/gui
 ## Naming Conventions
 - **Python modules**: `snake_case.py` for reusable libraries/utilities.
 - **Standalone helper scripts**: prefer lower-kebab names where practical.
-- **pyRevit command entrypoints**: keep the conventional `script.py` inside `*.pushbutton/` bundles.
+- **pyRevit command entrypoints**: keep `script.py` inside the pushbutton folder (example: [`HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton)).
 - **Docs**: prefer lower `snake_case.md` filenames (exceptions: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md), [`AGENTS.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/AGENTS.md)).
 
 ## Validation
