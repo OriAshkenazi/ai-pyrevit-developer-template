@@ -3,7 +3,7 @@ Review Ask-Task (use with gpt-5.2)
 Create a technical review ask-task for the {FEATURE_NAME} implementation to identify gaps and inconsistencies, following the Ask-Task format below.
 
 Analysis Focus:
-* Implementation completeness against CodexWorkspace/docs/workspace/development.md specifications
+* Implementation completeness against CodexWorkspace/workspace/development.md specifications
 * Code consistency with established patterns
 * Documentation synchronization with implementation
 * Integration points and potential conflicts
@@ -31,11 +31,11 @@ Focus Areas
 Scope Definition
 * Files to Review: [Specific file patterns or directories]
 * Integration Points: [Systems or components to validate against]
-* Reference Standards: [CodexWorkspace/docs/workspace/development.md sections, coding standards, or patterns]
+* Reference Standards: [CodexWorkspace/workspace/development.md sections, coding standards, or patterns]
 * Exclusions: [What NOT to analyze]
 
 Analysis Methodology
-* Compare implementation against CodexWorkspace/docs/workspace/development.md
+* Compare implementation against CodexWorkspace/workspace/development.md
 * Validate consistency with existing patterns
 * Check integration points and dependencies
 * Assess completeness against requirements
@@ -55,7 +55,7 @@ Constraints
 * Prioritized recommendations
 
 Context References
-* Primary reference: CodexWorkspace/docs/workspace/development.md sections [X, Y, Z]
+* Primary reference: CodexWorkspace/workspace/development.md sections [X, Y, Z]
 * Code patterns: [reference files or examples]
 * Integration standards: [API docs or interface specs]
 
@@ -67,4 +67,4 @@ Success Criteria
 
 Optional:
 Repository: {REPO_URL}
-Development Guide: CodexWorkspace/docs/workspace/development.md
+Development Guide: CodexWorkspace/workspace/development.md
