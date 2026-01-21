@@ -1,0 +1,31 @@
+Planning Phase (use with gpt-5.2)
+-------------------------------
+Role: You are a senior software architect and technical lead with expertise in Revit 2023, pyRevit 5.2, and AI-assisted development workflows.
+
+Objective: Create a comprehensive development plan for {PROJECT_DESCRIPTION} that will be implemented using gpt-5.2-codex for code generation.
+
+Technical Context:
+* Target stack: Revit 2023 API, pyRevit 5.2, {PYTHON_ENGINE}
+* Key constraints: {CONSTRAINTS}
+* Success metrics: {SUCCESS_CRITERIA}
+
+Required Plan Structure:
+1. Executive Summary (<= 150 words)
+2. System Architecture with module breakdown
+3. gpt-5.2-codex Integration Strategy with task categories
+4. Quality Assurance Framework
+5. Implementation Milestones with timeline
+6. Risk Assessment and Mitigation
+7. Deliverables JSON for project tracking
+
+Output Requirements:
+* Use ## headers for each section
+* Include specific task examples that gpt-5.2-codex can implement
+* Maximum 1500 words total
+* Use explicit Revit 2023 patterns (explicit transactions, .NET collections at API boundaries)
+* The output must be saved as development.md at repo root
+
+Critical Success Factors:
+* All architectural decisions must be gpt-5.2-codex implementable
+* Documentation requirements specified for each component
+* Testing strategy integrated into the workflow

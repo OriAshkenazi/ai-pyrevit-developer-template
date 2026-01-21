@@ -1,5 +1,11 @@
 # LLM Prompting Guidelines
 
+For the full workflow, use `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md`.
+
+## Model Selection
+- gpt-5.2: planning, task generation, reviews, backlog, and next-feature analysis.
+- gpt-5.2-codex: implementation and documentation updates.
+
 ## Beginner-Friendly Prompts
 - "Explain this in plain language and list the steps."
 - "I do not code. What folders and files should I create?"

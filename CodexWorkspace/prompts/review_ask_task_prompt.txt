@@ -1,0 +1,70 @@
+Review Ask-Task (use with gpt-5.2)
+---------------------------------
+Create a technical review ask-task for the {FEATURE_NAME} implementation to identify gaps and inconsistencies, following the Ask-Task format below.
+
+Analysis Focus:
+* Implementation completeness against development.md specifications
+* Code consistency with established patterns
+* Documentation synchronization with implementation
+* Integration points and potential conflicts
+* Testing coverage adequacy
+* Revit 2023 API usage correctness (explicit transactions, .NET collections, no obsolete API calls)
+
+Output Requirements:
+* Technical findings only - no code generation
+* Specific file and line references where applicable
+* Prioritized recommendations
+* Token-efficient analysis
+
+Ask-Task Format:
+
+Analysis Task: [Analysis Type] for [Component/Feature]
+
+Analysis Objective
+[Clear statement of what needs to be analyzed]
+
+Focus Areas
+1. [Technical Aspect 1] - [Specific elements to examine]
+2. [Technical Aspect 2] - [Particular concerns or validation points]
+3. [Technical Aspect 3] - [Integration or consistency checks]
+
+Scope Definition
+* Files to Review: [Specific file patterns or directories]
+* Integration Points: [Systems or components to validate against]
+* Reference Standards: [development.md sections, coding standards, or patterns]
+* Exclusions: [What NOT to analyze]
+
+Analysis Methodology
+* Compare implementation against development.md
+* Validate consistency with existing patterns
+* Check integration points and dependencies
+* Assess completeness against requirements
+
+Output Requirements
+Format: Technical findings report with specific file/line references
+Required Sections:
+1. Completeness Assessment - Missing implementations vs specifications
+2. Consistency Analysis - Deviations from established patterns
+3. Integration Validation - Compatibility with existing systems
+4. Quality Assessment - Code quality, testing, documentation
+5. Recommendations - Prioritized list of required actions
+
+Constraints
+* Technical focus only - no code generation
+* Specific file/function references where applicable
+* Prioritized recommendations
+
+Context References
+* Primary reference: development.md sections [X, Y, Z]
+* Code patterns: [reference files or examples]
+* Integration standards: [API docs or interface specs]
+
+Success Criteria
+* All specified focus areas analyzed
+* Specific recommendations provided
+* File/line references included for issues
+* Prioritized action items generated
+
+Optional:
+Repository: {REPO_URL}
+Development Guide: {development.md}
