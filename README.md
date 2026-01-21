@@ -1,11 +1,19 @@
 ﻿# AI pyRevit Developer Template
 
-Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. This repo is built for civil engineers who want clear, step-by-step instructions and minimal coding. A Hello World `.tab` scaffold is included to validate setup.
+Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. A Hello World `.tab` scaffold is included to validate setup.
 
 ## Start Here (Beginner)
 1. Install pyRevit: [Install pyRevit](https://pyrevitlabs.notion.site/Install-pyRevit-98ca4359920a42c3af5c12a7c99a196d).
-2. Clone this repo.
-3. Add the repo folder as a pyRevit extension (pyRevit Settings > Extensions > Add).
+2. Get this repo onto your machine (choose one option):
+   - Download ZIP: open https://github.com/OriAshkenazi/ai-pyrevit-developer-template, click **Code** > **Download ZIP**, then extract it to a folder you control (example: `C:\revit-extensions\ai-pyrevit-developer-template`).
+   - Use Git: open PowerShell in the folder where you want the repo, then run:
+     ```
+     git clone https://github.com/OriAshkenazi/ai-pyrevit-developer-template.git
+     ```
+3. Add the repo folder as a pyRevit extension:
+   - Open Revit.
+   - Go to the pyRevit tab > Settings.
+   - Under Extensions, click **Add** and select the repo folder (the folder that contains [`HelloWorld.tab`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab) and [`CodexWorkspace`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace)).
 4. Restart Revit so the extension loads.
 5. Confirm the scaffolded Hello World tab appears (see [`HelloWorld.tab/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab)) and click the button to verify setup.
 6. Create a plan in [`CodexWorkspace/docs/workspace/plans/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/workspace/plans) (copy from [`CodexWorkspace/docs/templates/plan_template.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/templates/plan_template.md)).

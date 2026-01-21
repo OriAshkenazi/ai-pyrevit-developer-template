@@ -4,8 +4,16 @@ This guide walks you through setup, validates your pyRevit installation with a s
 
 ## Quick Setup Check (Hello World)
 1. Install pyRevit: [Install pyRevit](https://pyrevitlabs.notion.site/Install-pyRevit-98ca4359920a42c3af5c12a7c99a196d).
-2. Clone this repo.
-3. Add the repo folder as an extension (pyRevit Settings > Extensions > Add).
+2. Get this repo onto your machine (choose one option):
+   - Download ZIP: open the repo page at https://github.com/OriAshkenazi/ai-pyrevit-developer-template, click **Code** > **Download ZIP**, then extract it to a folder you control (example: `C:\revit-extensions\ai-pyrevit-developer-template`).
+   - Use Git: open PowerShell in the folder where you want the repo, then run:
+     ```
+     git clone https://github.com/OriAshkenazi/ai-pyrevit-developer-template.git
+     ```
+3. Add the repo folder as an extension:
+   - Open Revit.
+   - Go to the pyRevit tab > Settings.
+   - Under Extensions, click **Add** and select the repo folder (the folder that contains [`HelloWorld.tab`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab) and [`CodexWorkspace`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace)).
 4. Restart Revit so the extension loads.
 5. Confirm the Hello World tab loads:
    - Tab: [`HelloWorld.tab/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab)
