@@ -7,8 +7,8 @@ Based on this summary of task {TASK_NUMBER}, update tasks {SUBSEQUENT_TASK_NUMBE
 Adjustment Requirements:
 * Maintain original scope and time constraints
 * Resolve specific conflicts identified
-* Preserve architectural consistency with CodexWorkspace/docs/workspace/development.md
+* Preserve architectural consistency with CodexWorkspace/workspace/development.md
 * Update dependencies and integration points
 * Maintain documentation update requirements
 
-Focus on surgical changes that address specific issues without scope expansion.
+Focus on surgical changes that address specific issues without scope expansion.

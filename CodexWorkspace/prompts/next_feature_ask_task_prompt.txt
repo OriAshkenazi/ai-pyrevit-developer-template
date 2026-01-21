@@ -3,7 +3,7 @@ Next Feature Ask-Task (use with gpt-5.2)
 Create an ask-task to analyze the current repository state and recommend the next logical feature implementation, following the Ask-Task format.
 
 Analysis Scope:
-* Current implementation completeness against CodexWorkspace/docs/workspace/development.md
+* Current implementation completeness against CodexWorkspace/workspace/development.md
 * Available architectural foundations for extension
 * Logical feature progression based on existing capabilities
 * Technical dependencies and prerequisites
@@ -29,11 +29,11 @@ Focus Areas
 Scope Definition
 * Files to Review: [Specific file patterns or directories]
 * Integration Points: [Systems or components to validate against]
-* Reference Standards: [CodexWorkspace/docs/workspace/development.md sections, coding standards, or patterns]
+* Reference Standards: [CodexWorkspace/workspace/development.md sections, coding standards, or patterns]
 * Exclusions: [What NOT to analyze]
 
 Analysis Methodology
-* Compare implementation against CodexWorkspace/docs/workspace/development.md
+* Compare implementation against CodexWorkspace/workspace/development.md
 * Validate consistency with existing patterns
 * Check integration points and dependencies
 * Assess completeness against requirements
@@ -60,4 +60,4 @@ Success Criteria
 
 Optional:
 Repository: {REPO_URL}
-Development Guide: CodexWorkspace/docs/workspace/development.md
+Development Guide: CodexWorkspace/workspace/development.md
