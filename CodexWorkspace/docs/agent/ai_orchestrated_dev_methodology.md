@@ -52,29 +52,19 @@ This is the single canonical usage guide for this template. Use it to minimize c
 
 
 
-## Phase Map
-
-| Phase | Trigger | Model | Prompt File | Expected Output |
-
-| --- | --- | --- | --- | --- |
-
-| Planning | New repo or new feature | gpt-5.2 | [`CodexWorkspace/prompts/planning_phase_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/planning_phase_prompt.txt) | [`CodexWorkspace/workspace/development.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/development.md) |
-
-| Seeding | Plan accepted | Manual | (none) | Repo structure seeded |
-
-| First Step Implementation | Start first feature | gpt-5.2 | [`CodexWorkspace/prompts/seed_code_tasks_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/seed_code_tasks_prompt.txt) | Code-Tasks batch |
-
-| Review | Task batch merged | gpt-5.2 | [`CodexWorkspace/prompts/review_ask_task_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/review_ask_task_prompt.txt) | Gap report + remediation |
-
-| Iteration I | In-flight conflicts | gpt-5.2 | [`CodexWorkspace/prompts/iteration_task_adjust_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/iteration_task_adjust_prompt.txt) | Adjusted tasks |
-
-| Iteration II | Post-batch gaps | gpt-5.2 | [`CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt) | Additional Code-Tasks |
-
-| Backlog | Non-urgent tasks found | gpt-5.2 | [`CodexWorkspace/prompts/backlog_code_task_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/backlog_code_task_prompt.txt) | [`CodexWorkspace/workspace/backlog.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/backlog.md) updated |
-
-| Next Feature | Roadmap advance | gpt-5.2 | [`CodexWorkspace/prompts/next_feature_ask_task_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/next_feature_ask_task_prompt.txt) | Next feature recommendation |
-
-| Implementation | Start next feature | gpt-5.2 | [`CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt) | New Code-Tasks batch |
+## Phase Map
+
+| Phase | Trigger | Model | Prompt File | Expected Output |
+| --- | --- | --- | --- | --- |
+| Planning | New repo or new feature | gpt-5.2 | [`CodexWorkspace/prompts/planning_phase_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/planning_phase_prompt.txt) | [`CodexWorkspace/workspace/development.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/development.md) |
+| Seeding | Plan accepted | Manual | (none) | Repo structure seeded |
+| First Step Implementation | Start first feature | gpt-5.2 | [`CodexWorkspace/prompts/seed_code_tasks_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/seed_code_tasks_prompt.txt) | Code-Tasks batch |
+| Review | Task batch merged | gpt-5.2 | [`CodexWorkspace/prompts/review_ask_task_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/review_ask_task_prompt.txt) | Gap report + remediation |
+| Iteration I | In-flight conflicts | gpt-5.2 | [`CodexWorkspace/prompts/iteration_task_adjust_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/iteration_task_adjust_prompt.txt) | Adjusted tasks |
+| Iteration II | Post-batch gaps | gpt-5.2 | [`CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt) | Additional Code-Tasks |
+| Backlog | Non-urgent tasks found | gpt-5.2 | [`CodexWorkspace/prompts/backlog_code_task_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/backlog_code_task_prompt.txt) | [`CodexWorkspace/workspace/backlog.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/backlog.md) updated |
+| Next Feature | Roadmap advance | gpt-5.2 | [`CodexWorkspace/prompts/next_feature_ask_task_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/next_feature_ask_task_prompt.txt) | Next feature recommendation |
+| Implementation | Start next feature | gpt-5.2 | [`CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/prompts/iteration_summary_tasks_prompt.txt) | New Code-Tasks batch |
 
 
 
