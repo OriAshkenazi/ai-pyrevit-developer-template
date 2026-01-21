@@ -1,5 +1,7 @@
 # Dev Workflow (This Repo)
 
+For the AI-orchestrated workflow and prompt usage, see `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md`.
+
 ## Git Strategy
 - **Branch naming**: `<prefix>/<short-topic>`
   - `agent/` agent setup or automation

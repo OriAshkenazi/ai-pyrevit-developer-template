@@ -1,0 +1,14 @@
+Iteration Task Adjust (use with gpt-5.2)
+---------------------------------------
+{CODEX_TASK_SUMMARY}
+
+Based on this summary of task {TASK_NUMBER}, update tasks {SUBSEQUENT_TASK_NUMBERS} to resolve identified conflicts and ensure implementation consistency.
+
+Adjustment Requirements:
+* Maintain original scope and time constraints
+* Resolve specific conflicts identified
+* Preserve architectural consistency with development.md
+* Update dependencies and integration points
+* Maintain documentation update requirements
+
+Focus on surgical changes that address specific issues without scope expansion.

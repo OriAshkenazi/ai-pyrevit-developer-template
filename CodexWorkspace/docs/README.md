@@ -11,6 +11,7 @@ This folder is the navigation layer for guidance used by Codex when working on t
 
 ## Guides
 - Beginner walkthrough: `guides/README.md`
+- AI-orchestrated development methodology: `guides/ai_orchestrated_dev_methodology.md`
 - Dev workflow: `guides/dev_workflow.md`
 - Environment setup: `guides/environment_setup.md`
 - LLM prompting guidelines: `guides/llm_prompting_guidelines.md`

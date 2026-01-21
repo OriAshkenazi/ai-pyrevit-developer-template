@@ -20,12 +20,12 @@
 
 ## Logging
 - Use the pyRevit Output window to view error details.
-- Copy the error text into your plan or Codex request.
+- Copy the error text into your plan or gpt-5.2 request.
 
 ## Safe Testing Tips
 - Test on a copy of a model, not your production file.
 - Use Revit Undo if the command makes unintended changes.
 
-## When Asking Codex For Help
+## When Asking For Help (gpt-5.2 or gpt-5.2-codex)
 - Include the error message and the file path of `script.py`.
 - Describe what you clicked, what you expected, and what happened.

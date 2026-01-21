@@ -1,4 +1,4 @@
-﻿# Plan Template (Plain Language)
+# Plan Template (Plain Language)
 
 ## Goal (One Sentence)
 - Describe the outcome you want.
@@ -26,6 +26,6 @@
 ## Tests (How You Will Check It)
 - Example: "Run in a sample model and verify the output."
 
-## Prompt For Codex
-- "Turn this plan into a step-by-step development plan and tasks."
-- "Explain any Revit limitations in plain language."
+## Prompt For gpt-5.2 (Planning)
+Use `CodexWorkspace/prompts/planning_phase_prompt.txt` and provide this plan as input.
+Save the output as `development.md` at the repo root.

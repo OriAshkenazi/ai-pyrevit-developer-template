@@ -7,7 +7,7 @@ Template scaffold for pyRevit development with CodexWorkspace docs and workflow 
 2. Add the repo folder as a pyRevit extension (pyRevit Settings > Extensions > Add).
 3. Restart Revit so the extension loads.
 4. Create a plan in `CodexWorkspace/docs/plans/` (start from `plan_template.md`).
-5. Ask Codex to turn that plan into a full development plan and tasks.
+5. Follow `CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md` to create `development.md` and tasks.
 6. When ready, create a command folder and copy `CodexWorkspace/scripts/new_command_template.py` to `script.py`.
 7. Choose a logo by adding `icon.png` to the pushbutton folder.
 8. Test the command in Revit.

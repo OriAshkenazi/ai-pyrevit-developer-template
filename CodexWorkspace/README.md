@@ -4,7 +4,8 @@ This workspace is a curated knowledge base so Codex sessions can start quickly o
 
 ## Start Here (Beginner)
 - Read `docs/guides/README.md` for a step-by-step walkthrough.
-- Create a plan using `docs/plans/plan_template.md`, then ask Codex to expand it.
+- Read `docs/guides/ai_orchestrated_dev_methodology.md` for the dual-model workflow.
+- Create a plan using `docs/plans/plan_template.md`, then use the planning prompt to produce `development.md`.
 
 ## Quick Start
 - Prefer the script engine already used by the command you are editing; avoid changing `#! python` / `#! python3` unless required.

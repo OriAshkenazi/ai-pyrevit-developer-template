@@ -1,0 +1,63 @@
+Iteration Summary Code-Tasks (use with gpt-5.2)
+----------------------------------------------
+{ANALYSIS_OUTPUT}
+
+Based on this technical analysis, generate remediation Code-Tasks to complete {FEATURE_NAME} implementation. Follow the Code-Task format below.
+
+Task Generation Criteria:
+* Address specific gaps identified in analysis
+* Maintain 3-hour scope limitation per task
+* Reference development.md for context consistency
+* Include documentation synchronization as part of each task
+* Specify validation requirements
+* Use Revit 2023 patterns (explicit transactions, .NET collections at API boundaries)
+
+Code-Task Format:
+
+Task [N]: [Action Verb] [Component/Feature] ([Development Route])
+
+Parallel Development Note: [Why this task can run concurrently]
+
+Context
+[Brief background from development.md and current repo state]
+
+Objective
+[Single, clear sentence describing the main goal]
+
+Technical Requirements
+1. [Primary Component] - [Specific implementation details with examples]
+2. [Integration Points] - [How this connects to existing code]
+3. [Data/API Specifications] - [Exact formats or interfaces]
+4. [Error Handling] - [Expected failures and responses]
+
+Files to Create/Modify
+* [exact/file/path.py] - [Purpose and main responsibilities]
+* [another/file/path.js] - [Specific changes required]
+* [test/file/path_test.py] - [Testing requirements]
+
+Implementation Specifications
+[Detailed technical specs with code examples where helpful]
+
+Success Criteria
+* [Specific, measurable outcome 1]
+* [Specific, measurable outcome 2]
+* [Specific, measurable outcome 3]
+* All tests pass: [specific test command]
+
+Documentation Updates Required
+* Update README.md section [X] with [specific changes]
+* Update AGENTS.md with [new patterns/conventions]
+* Create/update docstrings for all new functions
+* Update API documentation if applicable
+
+Validation Commands
+bash
+[specific test commands]
+[linting commands]
+[integration test commands]
+
+Constraints
+* Maximum implementation time: 3 hours
+* Target code volume: ~100 lines
+* Must maintain backward compatibility
+* Follow existing code patterns in [reference files]
