@@ -1,0 +1,79 @@
+name: Feature request
+description: Suggest an improvement to the template (docs, scripts, prompts, or scaffold).
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests should fit the purpose of this repo: a reusable *template* for Revit 2023 + pyRevit development.
+        Requests that are specific to *your* add-on should live in your own extension repo.
+
+  - type: checkboxes
+    attributes:
+      label: Pre-flight
+      description: Please confirm the following before submitting.
+      options:
+        - label: I searched existing issues and didn’t find a similar request.
+          required: true
+        - label: This request is about the template (not project-specific functionality for my add-on).
+          required: true
+        - label: I understand this template should not accumulate extra project-specific `.tab` folders.
+          required: true
+
+  - type: dropdown
+    attributes:
+      label: Target area
+      multiple: true
+      options:
+        - CodexWorkspace/docs/human
+        - CodexWorkspace/docs/agent
+        - CodexWorkspace/prompts
+        - CodexWorkspace/docs/agent/scripts
+        - HelloWorld.tab scaffold
+        - Repo meta (GitHub, branching, CI, etc.)
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Problem / motivation
+      description: What problem are you trying to solve? Who benefits?
+      placeholder: |
+        As a …
+        I want …
+        So that …
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed solution
+      description: Describe the change you’d like to see in the template.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternatives considered
+      description: Other ways to solve this (including “do nothing”).
+
+  - type: input
+    attributes:
+      label: Success criteria
+      description: How will we know this request is done?
+      placeholder: e.g. “New doc page linked from CodexWorkspace/docs/README.md”
+
+  - type: checkboxes
+    attributes:
+      label: Contribution
+      options:
+        - label: I’m willing to open a PR for this (optional).
+          required: false
+
+  - type: textarea
+    attributes:
+      label: Additional context (optional)
+      description: Links, screenshots, examples, prior art, etc.
