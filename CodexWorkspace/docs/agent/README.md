@@ -19,7 +19,7 @@ Static agent-only references for planning, prompting, and implementation support
 - [`templates/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/templates/README.md)
 
 ## Scripts (Agent Only)
-- [`CodexWorkspace/scripts/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/scripts/README.md)
+- [`CodexWorkspace/docs/agent/scripts/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/scripts/README.md)
 
 ## Workspace Outputs
 - Planning artifacts live in [`CodexWorkspace/workspace/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/workspace).

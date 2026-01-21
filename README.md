@@ -12,14 +12,14 @@ Template scaffold for pyRevit development with a curated CodexWorkspace and a He
 - Hello World scaffold: [`HelloWorld.tab/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab).
 - Static docs (human + agent): [`CodexWorkspace/docs/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs).
 - Prompt library for gpt-5.2 and gpt-5.2-codex: [`CodexWorkspace/prompts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/prompts).
-- Script templates and harnesses: [`CodexWorkspace/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/scripts).
+- Script templates and harnesses: [`CodexWorkspace/docs/agent/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/scripts).
 
 ## Notes
 - Use [`CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/pyrevit/revit_version_documentation) for Revit 2023 guidance.
 - Keep the Hello World scaffold in this template; put project-specific `.tab` content in your own extension repo or rename the scaffold as needed.
 
 ## Contributing
-- Contribute only to static template files: [`CodexWorkspace/docs/human/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/human), [`CodexWorkspace/docs/agent/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent), [`CodexWorkspace/prompts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/prompts), [`CodexWorkspace/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/scripts), and the Hello World scaffold.
+- Contribute only to static template files: [`CodexWorkspace/docs/human/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/human), [`CodexWorkspace/docs/agent/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent), [`CodexWorkspace/prompts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/prompts), [`CodexWorkspace/docs/agent/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/scripts), and the Hello World scaffold.
 - Keep project-specific planning artifacts in [`CodexWorkspace/workspace/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/workspace) out of template contributions.
 - Do not propose or include plans for a specific add-on.
 - Keep additional `.tab` folders out of the template and project code in your extension repo.

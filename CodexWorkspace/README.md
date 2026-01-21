@@ -13,7 +13,7 @@ This workspace is a curated knowledge base for pyRevit development with gpt-5.2 
 - [`docs/human`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/human) - setup and troubleshooting.
 - [`workspace`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/workspace) - plans, development.md, tasks, reviews, backlog.
 - [`prompts`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/prompts) - prompt snippets for gpt-5.2 and gpt-5.2-codex.
-- [`scripts`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/scripts) - pyRevit-ready templates and harnesses.
+- [`docs/agent/scripts`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/scripts) - pyRevit-ready templates and harnesses.
 
 ## Notes
 - Target Autodesk Revit 2023 APIs and avoid legacy `Document.New*` patterns.

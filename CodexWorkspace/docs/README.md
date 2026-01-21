@@ -19,7 +19,7 @@ This folder is the navigation layer for static documentation. The only human-fac
 ## Agent-Only Assets
 - Checklists: [`agent/checklists/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/checklists)
 - Templates: [`agent/templates/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/templates)
-- Scripts: [`CodexWorkspace/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/scripts)
+- Scripts: [`CodexWorkspace/docs/agent/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/scripts)
 
 ## Workspace (Project-Specific)
 - Overview: [`CodexWorkspace/workspace/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/README.md)
