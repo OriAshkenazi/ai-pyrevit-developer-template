@@ -1,0 +1,57 @@
+name: Documentation improvement
+description: Report missing/unclear/outdated docs or broken links in CodexWorkspace.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the docs. If you can, propose concrete wording or a small diff.
+
+  - type: checkboxes
+    attributes:
+      label: Pre-flight
+      options:
+        - label: I searched existing issues and didn’t find a duplicate.
+          required: true
+        - label: I’m pointing to a specific doc path or URL in this repo.
+          required: true
+
+  - type: input
+    attributes:
+      label: Doc page
+      description: Paste the URL or repo-relative path (e.g. `CodexWorkspace/docs/human/environment_setup.md`).
+      placeholder: https://github.com/... or CodexWorkspace/docs/...
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: What type of doc issue is it?
+      options:
+        - Missing info
+        - Unclear / confusing
+        - Outdated
+        - Broken link
+        - Formatting / rendering
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What’s wrong / what should change?
+      description: Be as specific as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Suggested wording (optional)
+      description: If you have a draft, paste it here.
+
+  - type: textarea
+    attributes:
+      label: Screenshots (optional)
+      description: Drag-and-drop images, or paste links.

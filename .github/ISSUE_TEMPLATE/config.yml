@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions (Q&A, ideas, showcase)
+    url: https://github.com/OriAshkenazi/ai-pyrevit-developer-template/discussions
+    about: Ask questions, share ideas, and discuss template improvements.
+  - name: Setup & usage guide
+    url: https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/human/README.md
+    about: Install pyRevit, load the extension, and validate with Hello World.
+  - name: Troubleshooting cheatsheet
+    url: https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/human/troubleshooting.md
+    about: Common “tab/button not showing” and pyRevit output tips.
+  - name: Agent workflow docs
+    url: https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/README.md
+    about: How to use CodexWorkspace, checklists, and templates.

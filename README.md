@@ -25,6 +25,7 @@ Template scaffold for pyRevit development with a curated CodexWorkspace and a He
 - Keep additional `.tab` folders out of the template and project code in your extension repo.
 - When updating static docs, also update [`CodexWorkspace/docs/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/README.md) and any relevant indexes.
 - Follow the repo conventions in [`AGENTS.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/AGENTS.md).
+- Use GitHub Discussions for questions and ideas: [`Discussions`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/discussions).
 
 Return back: [`CodexWorkspace/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/README.md)
 Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)
