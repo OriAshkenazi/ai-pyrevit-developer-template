@@ -2,8 +2,8 @@
 
 Template scaffold for pyRevit development with CodexWorkspace docs and workflow guidance. A Hello World `.tab` scaffold is included to validate setup.
 
-## Start Here (Beginner)
-1. Install pyRevit: [Install pyRevit](https://pyrevitlabs.notion.site/Install-pyRevit-98ca4359920a42c3af5c12a7c99a196d).
+## Start Here
+1. [Install pyRevit](https://pyrevitlabs.notion.site/Install-pyRevit-98ca4359920a42c3af5c12a7c99a196d).
 2. Get this repo onto your machine (choose one option):
    - Download ZIP: open https://github.com/OriAshkenazi/ai-pyrevit-developer-template, click **Code** > **Download ZIP**, then extract it to a folder you control (example: `C:\revit-extensions\ai-pyrevit-developer-template`).
    - Use Git: open PowerShell in the folder where you want the repo, then run:

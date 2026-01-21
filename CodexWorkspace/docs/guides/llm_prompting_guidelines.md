@@ -7,7 +7,7 @@ Store planning artifacts in [`CodexWorkspace/docs/workspace/`](https://github.co
 - gpt-5.2: planning, task generation, reviews, backlog, and next-feature analysis.
 - gpt-5.2-codex: implementation and documentation updates.
 
-## Beginner-Friendly Prompts
+## Plain-Language Prompts
 - "Explain this in plain language and list the steps."
 - "I do not code. What folders and files should I create?"
 - "Write a plan I can follow with numbered steps."

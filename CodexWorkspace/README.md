@@ -2,7 +2,7 @@
 
 This workspace is a curated knowledge base so Codex sessions can start quickly on Revit 2023 automation tasks.
 
-## Start Here (Beginner)
+## Start Here
 - Read [`docs/guides/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md) for a step-by-step walkthrough.
 - Read [`docs/guides/ai_orchestrated_dev_methodology.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/ai_orchestrated_dev_methodology.md) for the dual-model workflow.
 - Verify the Hello World scaffold in [`HelloWorld.tab/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/HelloWorld.tab) to confirm pyRevit setup.
