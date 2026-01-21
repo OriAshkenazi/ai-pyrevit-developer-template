@@ -1,4 +1,7 @@
 # Development Plan (Project-Specific)
 
 Replace this file with the gpt-5.2 planning output.
-Start from `CodexWorkspace/docs/templates/development_template.md` if you need a scaffold.
+Start from [`CodexWorkspace/docs/templates/development_template.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/templates/development_template.md) if you need a scaffold.
+
+Return back: [`CodexWorkspace/docs/workspace/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/workspace/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)

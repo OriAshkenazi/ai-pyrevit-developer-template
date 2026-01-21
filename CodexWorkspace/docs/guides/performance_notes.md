@@ -6,3 +6,5 @@
 - Release large Python or .NET collections once they are no longer required to avoid memory pressure.
 - Treat `ElementId` values as opaque tokens; do not rely on a specific integer range.
 
+Return back: [`CodexWorkspace/docs/guides/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/guides/README.md)
+Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)
