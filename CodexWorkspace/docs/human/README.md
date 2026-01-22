@@ -22,11 +22,11 @@ This guide gets the template loaded in Revit, verifies it works (Hello World), a
    - `CodexWorkspace` (docs + planning workspace)
 4. Add the extension to pyRevit:
    - Open Revit.
-   - Go to the `pyRevit` tab → `Settings`.
+   - Go to the `pyRevit` tab -> `Settings`.
    - Under `Extensions`, click **Add** and select:
      - `ai-pyrevit-developer-template.extension`
 
-   Common wrong choices (don’t select these):
+   Common wrong choices (don't select these):
    - The parent repo folder (it contains `CodexWorkspace`)
    - `CodexWorkspace`
    - `HelloWorld.tab`
@@ -43,7 +43,7 @@ This guide gets the template loaded in Revit, verifies it works (Hello World), a
 8. If the tab or button does not show up, check [`troubleshooting.md`](troubleshooting.md).
 
 ## Make Your First Button (Copy + Edit)
-You’ll copy the existing Hello World button folder, rename it, and change the message.
+You'll copy the existing Hello World button folder, rename it, and change the message.
 
 1. Copy this folder:
    - `ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton`
@@ -53,7 +53,7 @@ You’ll copy the existing Hello World button folder, rename it, and change the 
 4. Reload pyRevit (or restart Revit).
 5. Click your new button and confirm the new message appears.
 
-If it doesn’t show up, it’s almost always one of these:
+If it doesn't show up, it's almost always one of these:
 - The folder name must end with `.pushbutton`
 - The file must be named exactly `script.py` and sit directly inside the `.pushbutton` folder
 - Avoid extra nesting (no `MyFirstTool.pushbutton/something/script.py`)
@@ -72,12 +72,25 @@ pyRevit shows buttons based on folder names:
 - **`script.py`**: the file that runs when you click the button.
 - **Reload**: refreshes pyRevit without a full Revit restart (if available in your pyRevit version).
 
-## Optional: Ask An Agent To Build A Real Tool
-If you want AI help (instead of hand-editing scripts), write your request as a short plan and hand it to the agent.
+## Optional: Use Codex (AI) To Build A Real Tool
+If you want AI help (instead of hand-editing scripts), this repo uses a 2-phase flow:
+
+- Planning + task writing (you choose a planning model like `gpt-5.2` / "GPT-5.2")
+- Implementation (you use Codex, the coding agent: `gpt-5.2-codex`)
 
 1. Copy [`../agent/templates/plan_template.md`](../agent/templates/plan_template.md) to [`../../workspace/plans/`](../../workspace/plans/) and name it `<feature>_plan.md`.
 2. Fill in the plan in plain language (goal, inputs, outputs, steps).
-3. Hand the plan to the agent (they’ll generate `development.md` + tasks, then implement).
+3. Planning phase (model: `gpt-5.2` / "GPT-5.2"):
+   - Open [`../../prompts/planning_phase_prompt.txt`](../../prompts/planning_phase_prompt.txt) and paste it into your chat.
+   - Include the contents of your plan file (`CodexWorkspace/workspace/plans/<feature>_plan.md`).
+   - Save the output as [`../../workspace/development.md`](../../workspace/development.md).
+4. Generate tasks (model: `gpt-5.2` / "GPT-5.2"):
+   - Open [`../../prompts/seed_code_tasks_prompt.txt`](../../prompts/seed_code_tasks_prompt.txt) and run it with your plan + `development.md`.
+   - Save the output under [`../../workspace/tasks/`](../../workspace/tasks/) (example: `first_feature_tasks.md`).
+5. Implement with Codex (model: `gpt-5.2-codex`):
+   - Open Codex in this repo (the coding agent that can edit files and run commands).
+   - Tell it to implement the next task file, for example: `Implement CodexWorkspace/workspace/tasks/first_feature_tasks.md`.
+   - After it finishes, run/verify in Revit (always test on a copy of a model).
 
 ## Where To Go Next
 - Troubleshooting: [`troubleshooting.md`](troubleshooting.md)
