@@ -1,33 +1,33 @@
 # CodexWorkspace Docs
 
-This folder is the navigation layer for static documentation. The only human-facing usage guide lives in [`CodexWorkspace/docs/human/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/human/README.md); agent-only references live under [`CodexWorkspace/docs/agent/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent).
+This folder is the navigation layer for static documentation. The primary human-facing usage guide lives in [`human/README.md`](human/README.md); agent-only references live under [`agent/`](agent/).
 
 ## Human Docs (Start Here)
-- Start Here: [`human/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/human/README.md)
-- Environment setup: [`human/environment_setup.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/human/environment_setup.md)
-- Troubleshooting: [`human/troubleshooting.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/human/troubleshooting.md)
+- Start Here: [`human/README.md`](human/README.md)
+- Environment setup: [`human/environment_setup.md`](human/environment_setup.md)
+- Troubleshooting: [`human/troubleshooting.md`](human/troubleshooting.md)
 
 ## Agent Docs
-- Agent index: [`agent/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/README.md)
-- AI-orchestrated methodology: [`agent/ai_orchestrated_dev_methodology.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/ai_orchestrated_dev_methodology.md)
-- Dev workflow: [`agent/dev_workflow.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/dev_workflow.md)
-- Prompting guidelines: [`agent/llm_prompting_guidelines.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/llm_prompting_guidelines.md)
-- Performance notes: [`agent/performance_notes.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/docs/agent/performance_notes.md)
-- pyRevit guides: [`agent/pyrevit/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/pyrevit)
-- Revit version documentation: [`agent/pyrevit/revit_version_documentation/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/pyrevit/revit_version_documentation)
+- Agent index: [`agent/README.md`](agent/README.md)
+- AI-orchestrated methodology: [`agent/ai_orchestrated_dev_methodology.md`](agent/ai_orchestrated_dev_methodology.md)
+- Dev workflow: [`agent/dev_workflow.md`](agent/dev_workflow.md)
+- Prompting guidelines: [`agent/llm_prompting_guidelines.md`](agent/llm_prompting_guidelines.md)
+- Performance notes: [`agent/performance_notes.md`](agent/performance_notes.md)
+- pyRevit guides: [`agent/pyrevit/`](agent/pyrevit/)
+- Revit version documentation: [`agent/pyrevit/revit_version_documentation/`](agent/pyrevit/revit_version_documentation/)
 
 ## Agent-Only Assets
-- Checklists: [`agent/checklists/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/checklists)
-- Templates: [`agent/templates/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/templates)
-- Scripts: [`CodexWorkspace/docs/agent/scripts/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/docs/agent/scripts)
+- Checklists: [`agent/checklists/`](agent/checklists/)
+- Templates: [`agent/templates/`](agent/templates/)
+- Scripts: [`agent/scripts/`](agent/scripts/)
 
 ## Workspace (Project-Specific)
-- Overview: [`CodexWorkspace/workspace/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/README.md)
-- Development plan: [`CodexWorkspace/workspace/development.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/development.md)
-- Backlog: [`CodexWorkspace/workspace/backlog.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/workspace/backlog.md)
-- Plans: [`CodexWorkspace/workspace/plans/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/workspace/plans)
-- Tasks: [`CodexWorkspace/workspace/tasks/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/workspace/tasks)
-- Reviews: [`CodexWorkspace/workspace/reviews/`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/tree/main/CodexWorkspace/workspace/reviews)
+- Overview: [`../workspace/README.md`](../workspace/README.md)
+- Development plan: [`../workspace/development.md`](../workspace/development.md)
+- Backlog: [`../workspace/backlog.md`](../workspace/backlog.md)
+- Plans: [`../workspace/plans/`](../workspace/plans/)
+- Tasks: [`../workspace/tasks/`](../workspace/tasks/)
+- Reviews: [`../workspace/reviews/`](../workspace/reviews/)
 
-Return back: [`CodexWorkspace/README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/CodexWorkspace/README.md)
-Return to root: [`README.md`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/blob/main/README.md)
+Return back: [`../README.md`](../README.md)
+Return to root: [`../../README.md`](../../README.md)
