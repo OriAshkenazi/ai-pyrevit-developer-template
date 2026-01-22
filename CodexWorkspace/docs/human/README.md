@@ -42,7 +42,30 @@ This guide gets the template loaded in Revit, verifies it works (Hello World), a
 7. Click the Hello World button and confirm the alert appears.
 8. If the tab or button does not show up, check [`troubleshooting.md`](troubleshooting.md).
 
-## Make Your First Button (Copy + Edit)
+## Build Tools With Codex (AI) (Primary Workflow)
+This repo is designed for AI-assisted pyRevit development. You write a short plan, a planning model turns it into tasks, and Codex (the coding agent) implements those tasks by editing files in this repo.
+
+Model choice (important):
+- Planning + task writing: use `gpt-5.2` (or "GPT-5.2") in your chat tool.
+- Implementation: use Codex with `gpt-5.2-codex` (the model that can edit files and run commands).
+
+1. Write a plan:
+   - Copy [`../agent/templates/plan_template.md`](../agent/templates/plan_template.md) to [`../../workspace/plans/`](../../workspace/plans/) and name it `<feature>_plan.md`.
+   - Fill it in using plain language (goal, inputs, outputs, steps).
+2. Planning phase (model: `gpt-5.2`):
+   - Open [`../../prompts/planning_phase_prompt.txt`](../../prompts/planning_phase_prompt.txt) and paste it into your chat.
+   - Include the contents of your plan file (`CodexWorkspace/workspace/plans/<feature>_plan.md`).
+   - Save the output as [`../../workspace/development.md`](../../workspace/development.md).
+3. Generate tasks (model: `gpt-5.2`):
+   - Open [`../../prompts/seed_code_tasks_prompt.txt`](../../prompts/seed_code_tasks_prompt.txt) and run it with your plan + `development.md`.
+   - Save the output under [`../../workspace/tasks/`](../../workspace/tasks/) (example: `first_feature_tasks.md`).
+4. Implement with Codex (model: `gpt-5.2-codex`):
+   - Open Codex in this repo (the coding agent that can edit files and run commands).
+   - Tell it to implement the next task file, for example: `Implement CodexWorkspace/workspace/tasks/first_feature_tasks.md`.
+5. Validate in Revit:
+   - Reload pyRevit (or restart Revit) and test the button in a safe model copy.
+
+## Optional: Make Your First Button (Manual Copy + Edit)
 You'll copy the existing Hello World button folder, rename it, and change the message.
 
 1. Copy this folder:
@@ -71,26 +94,6 @@ pyRevit shows buttons based on folder names:
 - **Tab / Panel / Button**: how your tools show up on the Revit ribbon (a button lives inside a `.pushbutton` folder).
 - **`script.py`**: the file that runs when you click the button.
 - **Reload**: refreshes pyRevit without a full Revit restart (if available in your pyRevit version).
-
-## Optional: Use Codex (AI) To Build A Real Tool
-If you want AI help (instead of hand-editing scripts), this repo uses a 2-phase flow:
-
-- Planning + task writing (you choose a planning model like `gpt-5.2` / "GPT-5.2")
-- Implementation (you use Codex, the coding agent: `gpt-5.2-codex`)
-
-1. Copy [`../agent/templates/plan_template.md`](../agent/templates/plan_template.md) to [`../../workspace/plans/`](../../workspace/plans/) and name it `<feature>_plan.md`.
-2. Fill in the plan in plain language (goal, inputs, outputs, steps).
-3. Planning phase (model: `gpt-5.2` / "GPT-5.2"):
-   - Open [`../../prompts/planning_phase_prompt.txt`](../../prompts/planning_phase_prompt.txt) and paste it into your chat.
-   - Include the contents of your plan file (`CodexWorkspace/workspace/plans/<feature>_plan.md`).
-   - Save the output as [`../../workspace/development.md`](../../workspace/development.md).
-4. Generate tasks (model: `gpt-5.2` / "GPT-5.2"):
-   - Open [`../../prompts/seed_code_tasks_prompt.txt`](../../prompts/seed_code_tasks_prompt.txt) and run it with your plan + `development.md`.
-   - Save the output under [`../../workspace/tasks/`](../../workspace/tasks/) (example: `first_feature_tasks.md`).
-5. Implement with Codex (model: `gpt-5.2-codex`):
-   - Open Codex in this repo (the coding agent that can edit files and run commands).
-   - Tell it to implement the next task file, for example: `Implement CodexWorkspace/workspace/tasks/first_feature_tasks.md`.
-   - After it finishes, run/verify in Revit (always test on a copy of a model).
 
 ## Where To Go Next
 - Troubleshooting: [`troubleshooting.md`](troubleshooting.md)
