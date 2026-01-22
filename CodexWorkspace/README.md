@@ -16,7 +16,7 @@ This workspace is a curated knowledge base for pyRevit development (docs, prompt
 - [`docs/agent/scripts`](docs/agent/scripts) - pyRevit-ready templates and harnesses.
 
 ## Notes
-- Target Autodesk Revit 2023 APIs and avoid legacy `Document.New*` patterns.
+- Current docs and templates are aligned with Autodesk Revit 2023 APIs; adjust as needed for other versions and avoid legacy `Document.New*` patterns.
 - Keep transactions explicit (`Transaction.Start()` / `Commit()`), and roll back inside `except` blocks.
 - Use [`docs/agent/pyrevit/revit_version_documentation/`](docs/agent/pyrevit/revit_version_documentation/) for version-specific guidance.
 
