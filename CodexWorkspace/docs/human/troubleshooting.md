@@ -1,7 +1,7 @@
 # Troubleshooting Cheatsheet
 
 ## Extension Does Not Show Up
-- In Revit: `pyRevit` tab → `Settings` → `Extensions`: confirm `ai-pyrevit-developer-template.extension` is added.
+- In Revit: `pyRevit` tab -> `Settings` -> `Extensions`: confirm `ai-pyrevit-developer-template.extension` is added.
 - Reload pyRevit (if you see a `Reload` button) or restart Revit after changing extension folders.
 - Make sure you did not rename or delete the `ai-pyrevit-developer-template.extension` folder.
 
@@ -28,4 +28,3 @@
 
 Return back: [`README.md`](README.md)
 Return to root: [`../../../README.md`](../../../README.md)
-

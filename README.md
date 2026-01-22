@@ -1,11 +1,11 @@
 # AI pyRevit Developer Template
 
-Template scaffold for pyRevit development with a curated CodexWorkspace and a Hello World add-on for validation.
+AI-first pyRevit developer template with a CodexWorkspace plan-to-tasks workflow and a ready-to-load `.extension` bundle.
 
 ## Start Here
 - Install pyRevit: [Install pyRevit](https://pyrevitlabs.notion.site/Install-pyRevit-98ca4359920a42c3af5c12a7c99a196d).
-- Using this in Revit (no coding): [`CodexWorkspace/docs/human/README.md`](CodexWorkspace/docs/human/README.md).
-- Building tools (agent workflow + references): [`CodexWorkspace/docs/agent/README.md`](CodexWorkspace/docs/agent/README.md).
+- Setup + Codex workflow (recommended): [`CodexWorkspace/docs/human/README.md`](CodexWorkspace/docs/human/README.md).
+- Agent workflow + references (advanced): [`CodexWorkspace/docs/agent/README.md`](CodexWorkspace/docs/agent/README.md).
 - Planning artifacts (plans, development.md, tasks, reviews, backlog): [`CodexWorkspace/workspace/README.md`](CodexWorkspace/workspace/README.md).
 
 ## What This Repo Contains
@@ -16,7 +16,7 @@ Template scaffold for pyRevit development with a curated CodexWorkspace and a He
 - Script templates and harnesses: [`CodexWorkspace/docs/agent/scripts/`](CodexWorkspace/docs/agent/scripts/).
 
 ## Notes
-- Use [`CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/`](CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/) for Revit 2023 guidance.
+- Current references are aligned with Revit 2023; use [`CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/`](CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/) and adjust as needed for other versions.
 - Keep the Hello World scaffold in this template; put project-specific `.tab` content in your own extension repo or rename the scaffold as needed.
 
 ## Contributing
