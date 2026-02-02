@@ -10,7 +10,7 @@
 - Make sure you launched Revit after installing pyRevit.
 
 ## Tab Or Button Not Visible
-- Compare your folder naming to the Hello World scaffold: [`../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/`](../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/).
+- Compare your folder naming to the Hello World scaffold: [`../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/`](../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/).
 - Ensure a `script.py` file exists directly inside the `.pushbutton` folder.
 - Avoid extra nesting (the `.pushbutton` folder should be the last level).
 
@@ -27,4 +27,4 @@
 - Describe what you clicked, what you expected, and what happened.
 
 Return back: [`README.md`](README.md)
-Return to root: [`../../../README.md`](../../../README.md)
+Return to root: [`../../README.md`](../../README.md)

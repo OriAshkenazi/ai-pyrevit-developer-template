@@ -14,4 +14,4 @@ If you are *building* tools (editing `script.py` files), these notes help you av
 - Favor modern creation APIs (e.g., `Floor.Create`, `ViewSheet.Duplicate`) over removed `Document.New*` calls.
 
 Return back: [`README.md`](README.md)
-Return to root: [`../../../README.md`](../../../README.md)
+Return to root: [`../../README.md`](../../README.md)

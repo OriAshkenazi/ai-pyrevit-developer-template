@@ -19,7 +19,7 @@ This guide gets the template loaded in Revit, verifies it works (Hello World), a
        ```
 3. Confirm the folder you extracted/cloned contains:
    - `ai-pyrevit-developer-template.extension` (this is what pyRevit loads)
-   - `CodexWorkspace` (docs + planning workspace)
+   - `CodexWorkspace` (skills + planning workspace)
 4. Add the extension to pyRevit:
    - Open Revit.
    - Go to the `pyRevit` tab -> `Settings`.
@@ -34,11 +34,11 @@ This guide gets the template loaded in Revit, verifies it works (Hello World), a
    - If you see a `Reload` button in the `pyRevit` tab, use it.
    - Otherwise, restart Revit so the extension loads.
 6. Confirm the Hello World tab loads:
-   - Extension bundle: [`../../../ai-pyrevit-developer-template.extension/`](../../../ai-pyrevit-developer-template.extension/)
-   - Tab: [`../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/`](../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/)
-   - Panel: [`../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/`](../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/)
-   - Button: [`../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/`](../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/)
-   - Script: [`../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/script.py`](../../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/script.py)
+   - Extension bundle: [`../../ai-pyrevit-developer-template.extension/`](../../ai-pyrevit-developer-template.extension/)
+   - Tab: [`../../ai-pyrevit-developer-template.extension/HelloWorld.tab/`](../../ai-pyrevit-developer-template.extension/HelloWorld.tab/)
+   - Panel: [`../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/`](../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/)
+   - Button: [`../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/`](../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/)
+   - Script: [`../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/script.py`](../../ai-pyrevit-developer-template.extension/HelloWorld.tab/GettingStarted.panel/HelloWorld.pushbutton/script.py)
 7. Click the Hello World button and confirm the alert appears.
 8. If the tab or button does not show up, check [`troubleshooting.md`](troubleshooting.md).
 
@@ -50,15 +50,15 @@ Model choice (important):
 - Implementation: use Codex with `gpt-5.2-codex` (the model that can edit files and run commands).
 
 1. Write a plan:
-   - Copy [`../agent/templates/plan_template.md`](../agent/templates/plan_template.md) to [`../../workspace/plans/`](../../workspace/plans/) and name it `<feature>_plan.md`.
+   - Copy [`../skills/develop-pyrevit-extensions/assets/templates/plan_template.md`](../skills/develop-pyrevit-extensions/assets/templates/plan_template.md) to [`CodexWorkspace/workspace/plans/`](../workspace/plans/) and name it `<feature>_plan.md`.
    - Fill it in using plain language (goal, inputs, outputs, steps).
 2. Planning phase (model: `gpt-5.2`):
-   - Open [`../../prompts/planning_phase_prompt.txt`](../../prompts/planning_phase_prompt.txt) and paste it into your chat.
+   - Open [`planning_phase_prompt.txt`](../skills/develop-pyrevit-extensions/assets/prompts/planning_phase_prompt.txt) and paste it into your chat.
    - Include the contents of your plan file (`CodexWorkspace/workspace/plans/<feature>_plan.md`).
-   - Save the output as [`../../workspace/development.md`](../../workspace/development.md).
+   - Save the output as [`CodexWorkspace/workspace/development.md`](../workspace/development.md).
 3. Generate tasks (model: `gpt-5.2`):
-   - Open [`../../prompts/seed_code_tasks_prompt.txt`](../../prompts/seed_code_tasks_prompt.txt) and run it with your plan + `development.md`.
-   - Save the output under [`../../workspace/tasks/`](../../workspace/tasks/) (example: `first_feature_tasks.md`).
+   - Open [`seed_code_tasks_prompt.txt`](../skills/develop-pyrevit-extensions/assets/prompts/seed_code_tasks_prompt.txt) and run it with your plan + `development.md`.
+   - Save the output under [`CodexWorkspace/workspace/tasks/`](../workspace/tasks/) (example: `first_feature_tasks.md`).
 4. Implement with Codex (model: `gpt-5.2-codex`):
    - Open Codex in this repo (the coding agent that can edit files and run commands).
    - Tell it to implement the next task file, for example: `Implement CodexWorkspace/workspace/tasks/first_feature_tasks.md`.
@@ -98,7 +98,7 @@ pyRevit shows buttons based on folder names:
 ## Where To Go Next
 - Troubleshooting: [`troubleshooting.md`](troubleshooting.md)
 - Environment setup notes (advanced): [`environment_setup.md`](environment_setup.md)
-- Agent workflow index (advanced): [`../agent/README.md`](../agent/README.md)
+- Agent workflow index (advanced): [`../skills/develop-pyrevit-extensions/references/agent_overview.md`](../skills/develop-pyrevit-extensions/references/agent_overview.md)
 
 Return back: [`../README.md`](../README.md)
-Return to root: [`../../../README.md`](../../../README.md)
+Return to root: [`../../README.md`](../../README.md)
