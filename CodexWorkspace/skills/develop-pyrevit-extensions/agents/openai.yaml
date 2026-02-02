@@ -1,0 +1,3 @@
+display_name: Develop pyRevit Extensions
+short_description: Plan, build, and review pyRevit extensions with workflow guidance, templates, prompts, and scripts.
+default_prompt: Use the develop-pyrevit-extensions skill to navigate workflow references and use the provided templates, prompts, and scripts when planning or implementing pyRevit commands. Pair with a version-specific Revit skill for API constraints.

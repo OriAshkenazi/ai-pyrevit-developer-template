@@ -1,0 +1,3 @@
+display_name: pyRevit Revit 2023 Guidance
+short_description: Version-specific Revit 2023 API guidance for pyRevit development.
+default_prompt: Use this skill for Revit 2023 API rules, transaction patterns, and version-specific constraints while building or reviewing pyRevit commands.
