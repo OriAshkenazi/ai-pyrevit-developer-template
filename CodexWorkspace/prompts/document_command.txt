@@ -1,3 +1,0 @@
-Document this command (use with gpt-5.2-codex)
-----------------------------------------------
-Generate a Revit-style docstring for this function, listing params (types), return type, exceptions thrown, and a minimal usage example showing transaction scope.

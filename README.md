@@ -4,27 +4,27 @@ AI-first pyRevit developer template with a CodexWorkspace plan-to-tasks workflow
 
 ## Start Here
 - Install pyRevit: [Install pyRevit](https://pyrevitlabs.notion.site/Install-pyRevit-98ca4359920a42c3af5c12a7c99a196d).
-- Setup + Codex workflow (recommended): [`CodexWorkspace/docs/human/README.md`](CodexWorkspace/docs/human/README.md).
-- Agent workflow + references (advanced): [`CodexWorkspace/docs/agent/README.md`](CodexWorkspace/docs/agent/README.md).
+- Setup + Codex workflow (recommended): [`CodexWorkspace/human/README.md`](CodexWorkspace/human/README.md).
+- Agent workflow + references (advanced): [`CodexWorkspace/skills/develop-pyrevit-extensions/references/agent_overview.md`](CodexWorkspace/skills/develop-pyrevit-extensions/references/agent_overview.md).
 - Planning artifacts (plans, development.md, tasks, reviews, backlog): [`CodexWorkspace/workspace/README.md`](CodexWorkspace/workspace/README.md).
 
 ## What This Repo Contains
 - pyRevit extension bundle (what you add in pyRevit Settings): [`ai-pyrevit-developer-template.extension/`](ai-pyrevit-developer-template.extension/).
 - Hello World scaffold (inside the extension bundle): [`ai-pyrevit-developer-template.extension/HelloWorld.tab/`](ai-pyrevit-developer-template.extension/HelloWorld.tab/).
-- Static docs (human + agent): [`CodexWorkspace/docs/`](CodexWorkspace/docs/).
-- Prompt library for gpt-5.2 and gpt-5.2-codex: [`CodexWorkspace/prompts/`](CodexWorkspace/prompts/).
-- Script templates and harnesses: [`CodexWorkspace/docs/agent/scripts/`](CodexWorkspace/docs/agent/scripts/).
+- Base skill package (workflow, prompts, templates, scripts): [`CodexWorkspace/skills/develop-pyrevit-extensions/`](CodexWorkspace/skills/develop-pyrevit-extensions/).
+- Version-specific skills: [`CodexWorkspace/skills/pyrevit-revit-2023/`](CodexWorkspace/skills/pyrevit-revit-2023/), [`CodexWorkspace/skills/pyrevit-revit-2024/`](CodexWorkspace/skills/pyrevit-revit-2024/) (scaffold), [`CodexWorkspace/skills/pyrevit-revit-2025/`](CodexWorkspace/skills/pyrevit-revit-2025/) (scaffold).
 
 ## Notes
-- Current references are aligned with Revit 2023; use [`CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/`](CodexWorkspace/docs/agent/pyrevit/revit_version_documentation/) and adjust as needed for other versions.
+- Current references are aligned with Revit 2023; use the matching `CodexWorkspace/skills/pyrevit-revit-20xx/` skill and adjust as needed for other versions.
 - Keep the Hello World scaffold in this template; put project-specific `.tab` content in your own extension repo or rename the scaffold as needed.
 
 ## Contributing
-- Contribute only to static template files: [`CodexWorkspace/docs/human/`](CodexWorkspace/docs/human/), [`CodexWorkspace/docs/agent/`](CodexWorkspace/docs/agent/), [`CodexWorkspace/prompts/`](CodexWorkspace/prompts/), [`CodexWorkspace/docs/agent/scripts/`](CodexWorkspace/docs/agent/scripts/), and the Hello World scaffold.
+- Contribute only to static template files under [`CodexWorkspace/human/`](CodexWorkspace/human/) and [`CodexWorkspace/skills/`](CodexWorkspace/skills/) (including versioned `pyrevit-revit-20xx` skills), plus the Hello World scaffold.
+- Call for contributions: add guidance for any Revit version by extending or adding `pyrevit-revit-20xx` skills.
 - Keep project-specific planning artifacts in [`CodexWorkspace/workspace/`](CodexWorkspace/workspace/) out of template contributions.
 - Do not propose or include plans for a specific add-on.
 - Keep additional `.tab` folders out of the template and project code in your extension repo.
-- When updating static docs, also update [`CodexWorkspace/docs/README.md`](CodexWorkspace/docs/README.md) and any relevant indexes.
+- When updating static docs, also update [`CodexWorkspace/skills/develop-pyrevit-extensions/references/docs_overview.md`](CodexWorkspace/skills/develop-pyrevit-extensions/references/docs_overview.md) and any relevant indexes.
 - Follow the repo conventions in [`AGENTS.md`](AGENTS.md).
 - Use GitHub Discussions for questions and ideas: [`Discussions`](https://github.com/OriAshkenazi/ai-pyrevit-developer-template/discussions).
 

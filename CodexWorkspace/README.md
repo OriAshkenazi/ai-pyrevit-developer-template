@@ -1,24 +1,30 @@
 # Codex Workspace
 
-This workspace is a curated knowledge base for pyRevit development (docs, prompts, and planning artifacts).
+This workspace is a curated knowledge base for pyRevit development, organized as skills plus project planning artifacts.
 
 ## Start Here
-- Setup + first button walkthrough (no coding): [`docs/human/README.md`](docs/human/README.md).
-- Agent workflow, checklists, and references (advanced): [`docs/agent/README.md`](docs/agent/README.md).
+- Setup + first button walkthrough (no coding): [`human/README.md`](human/README.md).
+- Agent workflow, checklists, and references (advanced): [`skills/develop-pyrevit-extensions/references/agent_overview.md`](skills/develop-pyrevit-extensions/references/agent_overview.md).
 - Project planning artifacts: [`workspace/README.md`](workspace/README.md).
 
 ## Directory Tour
-- [`docs`](docs/README.md) - navigation for static docs (human + agent).
-- [`docs/human`](docs/human) - setup and troubleshooting.
-- [`docs/agent`](docs/agent) - agent-only guidance (workflow, prompting, pyRevit guides, checklists, templates).
+- [`human/`](human/) - human-facing setup and troubleshooting.
+- [`skills/develop-pyrevit-extensions/`](skills/develop-pyrevit-extensions/) - base pyRevit development skill (SKILL.md + resources).
+- [`skills/pyrevit-revit-2023/`](skills/pyrevit-revit-2023/) - Revit 2023 version-specific guidance skill.
+- [`skills/pyrevit-revit-2024/`](skills/pyrevit-revit-2024/) - Revit 2024 version-specific guidance skill (scaffold).
+- [`skills/pyrevit-revit-2025/`](skills/pyrevit-revit-2025/) - Revit 2025 version-specific guidance skill (scaffold).
+- [`skills/develop-pyrevit-extensions/references/`](skills/develop-pyrevit-extensions/references/) - agent references.
+- [`skills/develop-pyrevit-extensions/assets/`](skills/develop-pyrevit-extensions/assets/) - prompts and templates.
+- [`skills/develop-pyrevit-extensions/scripts/`](skills/develop-pyrevit-extensions/scripts/) - pyRevit-ready templates and harnesses.
 - [`workspace`](workspace) - plans, development.md, tasks, reviews, backlog.
-- [`prompts`](prompts) - prompt snippets for gpt-5.2 and gpt-5.2-codex.
-- [`docs/agent/scripts`](docs/agent/scripts) - pyRevit-ready templates and harnesses.
 
 ## Notes
-- Current docs and templates are aligned with Autodesk Revit 2023 APIs; adjust as needed for other versions and avoid legacy `Document.New*` patterns.
+- Base workflow is version-agnostic; versioned skills carry API specifics (2023 populated, 2024/2025 scaffolds).
 - Keep transactions explicit (`Transaction.Start()` / `Commit()`), and roll back inside `except` blocks.
-- Use [`docs/agent/pyrevit/revit_version_documentation/`](docs/agent/pyrevit/revit_version_documentation/) for version-specific guidance.
+- Use the matching `skills/pyrevit-revit-20xx/` skill for version-specific guidance.
+
+## Call For Contributions
+- Add guidance for any Revit version by extending or adding `pyrevit-revit-20xx` skills.
 
 Return back: [`../README.md`](../README.md)
 Return to root: [`../README.md`](../README.md)
