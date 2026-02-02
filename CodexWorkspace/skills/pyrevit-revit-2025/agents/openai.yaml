@@ -1,0 +1,3 @@
+display_name: pyRevit Revit 2025 Guidance
+short_description: Version-specific Revit 2025 API guidance for pyRevit development.
+default_prompt: Use this skill for Revit 2025 API rules, transaction patterns, and version-specific constraints while building or reviewing pyRevit commands.
