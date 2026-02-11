@@ -2,3 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Temporary artifacts (strict policy: keep temp outputs under tmp/)
+tmp/*
+!tmp/README.md
+!tmp/logs/
+tmp/logs/*
+!tmp/logs/README.md

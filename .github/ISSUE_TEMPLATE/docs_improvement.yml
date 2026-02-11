@@ -1,5 +1,5 @@
 name: Documentation improvement
-description: Report missing/unclear/outdated docs or broken links in CodexWorkspace.
+description: Report missing, unclear, outdated docs or broken links.
 title: "[Docs]: "
 labels:
   - documentation
@@ -7,28 +7,28 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve the docs. If you can, propose concrete wording or a small diff.
+        Thanks for helping improve docs. If possible, include concrete wording or a small diff suggestion.
 
   - type: checkboxes
     attributes:
       label: Pre-flight
       options:
-        - label: I searched existing issues and didn’t find a duplicate.
+        - label: I searched existing issues and did not find a duplicate.
           required: true
-        - label: I’m pointing to a specific doc path or URL in this repo.
+        - label: I am pointing to a specific doc path or URL in this repository.
           required: true
 
   - type: input
     attributes:
       label: Doc page
-      description: Paste the URL or repo-relative path (e.g. `CodexWorkspace/docs/human/environment_setup.md`).
-      placeholder: https://github.com/... or CodexWorkspace/docs/...
+      description: Paste URL or repo-relative path.
+      placeholder: e.g. CodexWorkspace/human/advanced_workflow.md
     validations:
       required: true
 
   - type: dropdown
     attributes:
-      label: What type of doc issue is it?
+      label: Type of issue
       options:
         - Missing info
         - Unclear / confusing
@@ -41,17 +41,17 @@ body:
 
   - type: textarea
     attributes:
-      label: What’s wrong / what should change?
-      description: Be as specific as possible.
+      label: What is wrong / what should change?
+      description: Be specific.
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Suggested wording (optional)
-      description: If you have a draft, paste it here.
+      description: Paste proposed text.
 
   - type: textarea
     attributes:
       label: Screenshots (optional)
-      description: Drag-and-drop images, or paste links.
+      description: Drag and drop media or paste links.
