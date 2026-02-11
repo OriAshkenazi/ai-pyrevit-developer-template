@@ -1,17 +1,28 @@
-# Testing Strategy Quick Reference
-
-## New User Walkthrough (Template)
-- [ ] Clone the repo and open the README.
-- [ ] Add the repo folder in pyRevit Settings > Extensions > Add.
-- [ ] Restart Revit and confirm the extension loads.
-- [ ] Create a plan using [`plan_template.md`](../assets/templates/plan_template.md) and store it in [`CodexWorkspace/workspace/plans/`](../../../workspace/plans/).
-- [ ] Create a sample button using the template script and confirm it runs.
-
-- [ ] **Unit-like checks**: exercise pure-Python utilities or data transforms that do not touch the Revit API.
-- [ ] **Integration runs**: validate behavior on a small seed model with known expectations; confirm clean document state.
-- [ ] **Performance sampling**: capture timings on representative projects; compare to agreed budgets.
-- [ ] **User validation**: confirm workflows with real-world users; ensure prompts, dialogs, and error messages are clear.
-- [ ] **Edge cases**: cover empty selections, read-only documents, linked elements, and missing parameters.
-
+# Testing Strategy Quick Reference
+
+## New User Walkthrough (Template)
+- [ ] Clone the repo and open `README.md`.
+- [ ] Add `ai-pyrevit-developer-template.extension` in pyRevit Settings > Extensions > Add.
+- [ ] Restart/Re-load Revit and confirm the extension loads.
+- [ ] Click HelloWorld and verify output behavior.
+
+## Beginner Validation
+- [ ] Unit-like checks for pure Python helpers where applicable.
+- [ ] Integration run on safe sample model.
+- [ ] Edge cases: empty selection, read-only state, missing parameters.
+- [ ] Basic logging captured (outcome + error context) when failures occur.
+
+## Advanced Validation
+- [ ] `status.md` schema remains complete after meaningful updates.
+- [ ] Advanced logs are persisted under `tmp/logs/`.
+- [ ] Hook setup/disable scripts are verified.
+- [ ] Template safeguard scripts pass locally.
+
+## AI/Data Validation (Advanced)
+- [ ] Dataset coverage percent is logged.
+- [ ] Sampling/downsampling is explicitly stated.
+- [ ] Numeric sanity checks are documented.
+- [ ] Metric direction assumptions are stated and validated.
+
 Return back: [`checklists_overview.md`](checklists_overview.md)
 Return to root: [`README.md`](../../../../README.md)
