@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+set -eu
+
+powershell -ExecutionPolicy Bypass -File tools/check_temp_files_policy.ps1
+powershell -ExecutionPolicy Bypass -File tools/check_status_schema.ps1
+powershell -ExecutionPolicy Bypass -File tools/check_status_updated.ps1
+powershell -ExecutionPolicy Bypass -File tools/check_example_scaffold.ps1
