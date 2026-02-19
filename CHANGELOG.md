@@ -9,6 +9,10 @@ Format:
 
 ## [Unreleased]
 
+No unreleased changes yet.
+
+## [v0.2.1] - 2026-02-19
+
 ### Added
 - New helper skill: `CodexWorkspace/skills/select-svg-icon/` for choosing pyRevit command icons with a vision-based semantic validation workflow.
 - New icon review reference rubric: `CodexWorkspace/skills/select-svg-icon/references/icon_review_rubric.md`.
