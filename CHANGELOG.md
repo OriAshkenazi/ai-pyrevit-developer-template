@@ -22,6 +22,9 @@ No unreleased changes yet.
 - New skill scripts:
   - `CodexWorkspace/skills/select-svg-icon/scripts/acquire_svgrepo_svg.py`
   - `CodexWorkspace/skills/select-svg-icon/scripts/render_svg_icon_png.py`
+- Seed prompt templates for agent kickoff in:
+  - `CodexWorkspace/human/beginner_quickstart.md`
+  - `CodexWorkspace/human/advanced_workflow.md`
 
 ### Changed
 - Navigation indexes now include the new icon-selection skill:
@@ -29,6 +32,8 @@ No unreleased changes yet.
   - `CodexWorkspace/README.md`
   - `CodexWorkspace/skills/develop-pyrevit-extensions/references/docs_overview.md`
 - Skill naming and metadata now use SVG-only naming (`select-svg-icon`) with no source-site name in the skill identifier.
+- Human docs index now points to tiered seed prompt usage in `CodexWorkspace/human/README.md`.
+- `AGENTS.md` now captures the seed-prompt workflow contract and agent-owned git execution requirements (atomic commits, autonomous branch/PR flow).
 
 ## [v0.2.0] - 2026-02-11
 

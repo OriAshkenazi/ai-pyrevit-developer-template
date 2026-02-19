@@ -24,6 +24,11 @@ This repository is a template/meta workflow repository for pyRevit development. 
   - Scratch code, one-off test outputs, and debug dumps must be created under `tmp/`.
   - Persisted logs must be created under `tmp/logs/`.
   - Do not commit temporary artifacts unless they are policy docs (`tmp/README.md`, `tmp/logs/README.md`).
+- Seed-prompt workflow contract:
+  - Start from a plain-English user description.
+  - Run a planning/clarification phase before coding.
+  - Map work through workspace artifacts to a fully working pyRevit button.
+  - Use beginner or advanced artifact depth based on selected tier.
 
 ## Tier Rules
 - Beginner mode:
@@ -51,6 +56,11 @@ This repository is a template/meta workflow repository for pyRevit development. 
 - Hygiene:
   - Run `git status -sb` before and after changes.
   - Avoid destructive commands unless explicitly requested.
+- Agent-owned git execution (when seed prompts request autonomous flow):
+  - Handle branch creation/management without waiting for user input.
+  - Make atomic, single-purpose, reversible commits.
+  - Execute push and PR lifecycle steps autonomously.
+  - Report branch, commit list, and PR/release status at handoff.
 
 ## Decision Log
 Use this section to capture major corrections and persistent rules that must survive across sessions.
@@ -71,6 +81,11 @@ Use this section to capture major corrections and persistent rules that must sur
 
 ### 2026-02-11: Advanced Status Tracking
 - Advanced-mode work requires consistent `status.md` updates using the required schema.
+
+### 2026-02-19: Seed Prompt Standardization
+- Human guides include copy/paste seed prompts for beginner and advanced tiers.
+- Seed prompts require plain-English kickoff, planning questions before coding, and explicit workspace artifact flow.
+- Seed prompts define agent-owned git handling with atomic commits and autonomous branch/PR operations.
 
 Return back: [`README.md`](README.md)
 Return to root: [`README.md`](README.md)
