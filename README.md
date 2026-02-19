@@ -16,6 +16,7 @@ AI-first pyRevit developer template with a CodexWorkspace plan-to-tasks workflow
 - Hello World scaffold (inside the extension bundle): [`ai-pyrevit-developer-template.extension/HelloWorld.tab/`](ai-pyrevit-developer-template.extension/HelloWorld.tab/).
 - Base skill package (workflow, prompts, templates, scripts): [`CodexWorkspace/skills/develop-pyrevit-extensions/`](CodexWorkspace/skills/develop-pyrevit-extensions/).
 - Version-specific skills: [`CodexWorkspace/skills/pyrevit-revit-2023/`](CodexWorkspace/skills/pyrevit-revit-2023/), [`CodexWorkspace/skills/pyrevit-revit-2024/`](CodexWorkspace/skills/pyrevit-revit-2024/) (scaffold), [`CodexWorkspace/skills/pyrevit-revit-2025/`](CodexWorkspace/skills/pyrevit-revit-2025/) (scaffold).
+- Icon-selection helper skill: [`CodexWorkspace/skills/select-svg-icon/`](CodexWorkspace/skills/select-svg-icon/) for SVG-only icon acquisition (`svgrepo` automated first, `svgfind` manual fallback) and vision-based icon-to-script matching.
 
 ## Notes
 - Current references are aligned with Revit 2023; use the matching `CodexWorkspace/skills/pyrevit-revit-20xx/` skill and adjust as needed for other versions.

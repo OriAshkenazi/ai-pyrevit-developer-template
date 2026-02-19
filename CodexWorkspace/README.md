@@ -16,6 +16,7 @@ This workspace is a curated knowledge base for pyRevit development, organized as
 - [`skills/pyrevit-revit-2023/`](skills/pyrevit-revit-2023/) - Revit 2023 version-specific guidance skill.
 - [`skills/pyrevit-revit-2024/`](skills/pyrevit-revit-2024/) - Revit 2024 version-specific guidance skill (scaffold).
 - [`skills/pyrevit-revit-2025/`](skills/pyrevit-revit-2025/) - Revit 2025 version-specific guidance skill (scaffold).
+- [`skills/select-svg-icon/`](skills/select-svg-icon/) - SVG-only icon selection skill for pyRevit commands with automated `svgrepo` acquisition and manual `svgfind` fallback.
 - [`skills/develop-pyrevit-extensions/references/`](skills/develop-pyrevit-extensions/references/) - agent references.
 - [`skills/develop-pyrevit-extensions/assets/`](skills/develop-pyrevit-extensions/assets/) - prompts and templates.
 - [`skills/develop-pyrevit-extensions/scripts/`](skills/develop-pyrevit-extensions/scripts/) - pyRevit-ready templates and harnesses.
