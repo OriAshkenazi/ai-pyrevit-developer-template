@@ -42,6 +42,16 @@ Update `status.md` after each meaningful code/workflow change in advanced mode.
 ## Seed Prompt Template (Advanced)
 Use this as the first message to the agent. Replace placeholders before sending.
 
+Placeholder definitions:
+- `<FEATURE_DESCRIPTION_IN_PLAIN_ENGLISH>`:
+  - A plain-language description of what you want built.
+  - Include: user goal, expected behavior, key inputs/outputs, constraints, and quality expectations.
+  - Example: `Create a pyRevit button that checks selected rooms for missing required parameters, writes a detailed log, and presents a pass/fail summary with next actions.`
+- `<FEATURE_SLUG>`:
+  - A short kebab-case identifier used for workspace filenames.
+  - Use lowercase letters, numbers, and hyphens only.
+  - Example: `room-parameter-audit`
+
 ```text
 Use the Advanced workflow for this repository.
 
@@ -106,8 +116,9 @@ Finish with:
 
 ### How To Use This Template
 1. Copy the template into your first message to the agent.
-2. Replace `<FEATURE_DESCRIPTION_IN_PLAIN_ENGLISH>` and `<FEATURE_SLUG>`.
-3. Answer planning questions first; implementation starts after clarifications.
+2. Write `<FEATURE_DESCRIPTION_IN_PLAIN_ENGLISH>` with concrete behavior, constraints, and quality expectations.
+3. Choose `<FEATURE_SLUG>` in kebab-case (for example: `room-parameter-audit`).
+4. Answer planning questions first; implementation starts after clarifications.
 
 ## Temporary Files and Logs
 - Store scratch/test artifacts only under `tmp/`.
