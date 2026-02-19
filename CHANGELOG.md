@@ -9,7 +9,22 @@ Format:
 
 ## [Unreleased]
 
-No unreleased changes yet.
+### Added
+- New helper skill: `CodexWorkspace/skills/select-svg-icon/` for choosing pyRevit command icons with a vision-based semantic validation workflow.
+- New icon review reference rubric: `CodexWorkspace/skills/select-svg-icon/references/icon_review_rubric.md`.
+- New source acquisition protocols:
+  - `CodexWorkspace/skills/select-svg-icon/references/svgrepo_automated_acquisition.md` (automated default path)
+  - `CodexWorkspace/skills/select-svg-icon/references/svgfind_acquisition.md` (manual fallback path)
+- New skill scripts:
+  - `CodexWorkspace/skills/select-svg-icon/scripts/acquire_svgrepo_svg.py`
+  - `CodexWorkspace/skills/select-svg-icon/scripts/render_svg_icon_png.py`
+
+### Changed
+- Navigation indexes now include the new icon-selection skill:
+  - `README.md`
+  - `CodexWorkspace/README.md`
+  - `CodexWorkspace/skills/develop-pyrevit-extensions/references/docs_overview.md`
+- Skill naming and metadata now use SVG-only naming (`select-svg-icon`) with no source-site name in the skill identifier.
 
 ## [v0.2.0] - 2026-02-11
 

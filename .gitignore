@@ -8,3 +8,15 @@ tmp/*
 !tmp/logs/
 tmp/logs/*
 !tmp/logs/README.md
+
+# OS-generated files (macOS / Windows)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

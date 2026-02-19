@@ -1,0 +1,3 @@
+display_name: Select SVG Icon
+short_description: Choose and validate SVG icons for pyRevit commands.
+default_prompt: Use $select-svg-icon to acquire SVG icons with svgrepo automation first, fallback to svgfind manual search when needed, and rank candidates with a vision pass before finalizing.

@@ -23,6 +23,9 @@ This folder is the navigation layer for the `develop-pyrevit-extensions` skill r
 - Revit 2024 guidance (scaffold): [`CodexWorkspace/skills/pyrevit-revit-2024/`](../../pyrevit-revit-2024/)
 - Revit 2025 guidance (scaffold): [`CodexWorkspace/skills/pyrevit-revit-2025/`](../../pyrevit-revit-2025/)
 
+## Helper Skills
+- SVG-only icon selection with vision coupling: [`CodexWorkspace/skills/select-svg-icon/`](../../select-svg-icon/)
+
 ## Agent Assets
 - Checklists: [`checklists_overview.md`](checklists_overview.md)
 - Templates: [`templates_overview.md`](templates_overview.md)
